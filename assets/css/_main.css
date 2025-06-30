@@ -1,4 +1,4 @@
-@import url("/assets/css/_main.css");
+@import url("/senrimana/assets/css/_main.css");
 
 :root {
   --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%);
@@ -8,7 +8,7 @@ html {
   background-color: #3d374c !important;
 }
 body {
-  background-image: url("/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ header {
   top: 0;
   z-index: 701;
   background-image: #3d374c;
-  background-image: url("/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ footer > span {
 .intro {
   width: 100vw;
   height: 100vh;
-  /* background-image: url("/assets/images/background/20240625_1.png"); */
+  /* background-image: url("/senrimana/assets/images/background/20240625_1.png"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ footer > span {
 }
 
 div[latestLineup] {
-  background-image: url("/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before {
 }
 
 div[senri] {
-  background-image: url("/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
