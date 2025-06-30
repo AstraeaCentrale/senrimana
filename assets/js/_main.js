@@ -68,9 +68,3 @@ function lineupUpdated(mm, dd, yy) {
   const dt = new Date(new Date(yy, mm, dd).getTime() + diffOffs(9));
   document.getElementById("lineupUpd").innerHTML = dt.getDate() + " " + month(dt.getMonth() - 1) + " " + dt.getFullYear() + " JST";
 }
-
-function dailyKaiser() {
-  for (let m = 0; m < 31; m++) {
-    document.getElementById("dailyKaiser-" + (m + 1)).innerHTML = "Day " + (m + 1);
-  }
-}

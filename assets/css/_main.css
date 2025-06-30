@@ -1,4 +1,4 @@
-@import url("/senrimana/assets/css/_main.css");
+@import url("/assets/css/_main.css");
 
 :root {
   --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%);
@@ -8,7 +8,7 @@ html {
   background-color: #3d374c !important;
 }
 body {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ header {
   top: 0;
   z-index: 701;
   background-image: #3d374c;
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ footer > span {
 .intro {
   width: 100vw;
   height: 100vh;
-  /* background-image: url("/senrimana/assets/images/background/20240625_1.png"); */
+  /* background-image: url("/assets/images/background/20240625_1.png"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ footer > span {
 }
 
 div[latestLineup] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -171,9 +171,6 @@ div[pastLineup] {
 .pastLineups > div > div > span[eventTitle] {
   font-size: .7rem;
 }
-div[completed] { /* if an event is already done */
-  display: none !important;
-}
 
 .noVOD {
   display: none;
@@ -194,50 +191,42 @@ div[dailyKaiser] {
   background-color: #e5e3e1;
   color: #3d374c;
 }
-div[dailyKaiser] > .dailyKaiser > div {
+div[dailyKaiser] > #dailyKaiser > div {
   width: 500px !important;
   border: #3d374c solid .125rem;
   background-color: #e5e3e1;
   color: #3d374c;
   font-weight: bold;
 }
-div[dailyKaiser] > .dailyKaiser > div:hover {
+div[dailyKaiser] > #dailyKaiser > div:hover {
   background-color: #b1afad;
 }
-div[dailyKaiser] > .dailyKaiser > div > img {
+div[dailyKaiser] > #dailyKaiser > div > img {
   aspect-ratio: 1 / 1;
 }
-div[dailyKaiser] > .dailyKaiser > div > div > span::before {
+div[dailyKaiser] > #dailyKaiser > div > div > .author::before {
   content: "illust. ";
 }
 
-/* override default span in .dailyKaiser */
-div[dailyKaiser] > .dailyKaiser > div > div > span[memeFormat]::before {
+/* override default span in #dailyKaiser */
+div[dailyKaiser] > #dailyKaiser > div > div > .author[memeFormat]::before {
   content: "a meme by ";
 }
-div[dailyKaiser] > .dailyKaiser > div > div > span[GIFormat]::before {
+div[dailyKaiser] > #dailyKaiser > div > div > .author[GIFormat]::before {
   content: "GIF provided by ";
 }
-div[dailyKaiser] > .dailyKaiser > div > div > span[clipFormat]::before {
+div[dailyKaiser] > #dailyKaiser > div > div > .author[clipFormat]::before {
   content: "clip from ";
 }
-div[dailyKaiser] > .dailyKaiser > div > div > span[screencap]::before {
+div[dailyKaiser] > #dailyKaiser > div > div > .author[screencap]::before {
   content: "screencap by ";
 }
-div[dailyKaiser] > .dailyKaiser > div > div > span[picrew]::before {
+div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before {
   content: "a picrew edit by ";
 }
 
-span[id^="dailyKaiser-"] {
-  font-size: .875rem;
-  text-transform: uppercase;
-}
-span[id^="dailyKaiser-"]::before {
-  content: unset !important;
-}
-
 div[senri] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
