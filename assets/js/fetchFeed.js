@@ -39,7 +39,7 @@ function dailyKaiser(year) {
         <div onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
-            <span style="font-size: .875rem;">DAY ${m[k].getElementsByTagName("POSTID")[0].childNodes[0].nodeValue}</span>
+            <span style="font-size: .875rem;">DAY ${k + 1}</span>
             <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}</span>
           </div>
         </div>
