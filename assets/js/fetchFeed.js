@@ -20,13 +20,23 @@ function broadcastLineup(year) {
       `;
     }
     document.getElementById("vodList").innerHTML = out;
+    isOngoing(true); // reveal ongoing status
   }
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
+  xhttp.open("GET", `/assets/xml/${year}_lineup.xml`, true);
   xhttp.send();
+}
+
+function isOngoing(isTrue) {
+  let dates = document.querySelectorAll("span[type='date']");
+  dates.forEach(date => {
+    if (isTrue === true && date.innerHTML.includes("2 Jul 2025")) {
+      date.innerHTML = `<span class="liveOngoing">&#x2B24 ONGOING</span>`;
+    }
+  });
 }
 
 function dailyKaiser(year) {
@@ -51,6 +61,6 @@ function dailyKaiser(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+  xhttp.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
   xhttp.send();
 }
