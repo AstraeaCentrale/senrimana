@@ -2,5 +2,5 @@
   font-family: "SimSun";
   src:
     local("SimSun"),
-    url("/assets/fonts/simsun.woff") format("woff");
+    url("/senrimana/assetsfonts/simsun.woff") format("woff");
 }
