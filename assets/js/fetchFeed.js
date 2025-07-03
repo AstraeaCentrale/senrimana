@@ -20,7 +20,7 @@ function broadcastLineup(year) {
       `;
     }
     document.getElementById("vodList").innerHTML = out;
-    isOngoing(true); // reveal ongoing status
+    isOngoing();
   }
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -30,11 +30,11 @@ function broadcastLineup(year) {
   xhttp.send();
 }
 
-function isOngoing(isTrue) {
+function isOngoing() {
   let dates = document.querySelectorAll("span[type='date']");
   dates.forEach(date => {
-    if (isTrue === true && date.innerHTML.includes("2 Jul 2025")) {
-      date.innerHTML = `<span class="liveOngoing">&#x2B24 ONGOING</span>`;
+    if (date.innerHTML.includes(`${tD.getDate()} ${month(tD.getMonth())} ${tD.getFullYear()}`)) {
+      date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x2B24 ONGOING</span>`;
     }
   });
 }
@@ -46,7 +46,7 @@ function dailyKaiser(year) {
       m = xmlDoc.getElementsByTagName("DAILY");
     for (let k = 0; k < m.length; k++) {
       out += `
-        <div onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
+        <div eventDays onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
             <span style="font-size: .875rem;">DAY ${k + 1}</span>
@@ -56,6 +56,7 @@ function dailyKaiser(year) {
       `;
     }
     document.getElementById("dailyKaiser").innerHTML = out;
+    inactiveUnlessPassed();
   }
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -63,4 +64,19 @@ function dailyKaiser(year) {
   };
   xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
   xhttp.send();
+}
+
+function inactiveUnlessPassed() {
+  let days = document.querySelectorAll("div[eventDays]");
+  for (let dK = 0; dK < days.length; dK++) {
+    days[dK]?.setAttribute("style", "display: none;");
+  }
+  for (let dK = 0; dK < days.length; dK++) {
+    let day = days[dK].querySelector("span");
+    if (day.innerHTML.includes(`DAY ${dK + 1}`)) {
+      if (tD.getDate() >= dK + 1) {
+        days[dK].setAttribute("style", "display: inline-block;");
+      }
+    }
+  }
 }

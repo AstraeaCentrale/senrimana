@@ -1,9 +1,10 @@
 function start() {
   inPageStart(); // per page start
 }
+// global variables
+const tD = new Date(new Date().getTime() + diffOffs(9));
 
 function jstClock() {
-  const tD = new Date(new Date().getTime() + diffOffs(9));
   let mt = tD.getMonth(),
     dd = tD.getDate(),
     yy = tD.getFullYear(),
@@ -12,8 +13,8 @@ function jstClock() {
     ss = tD.getSeconds();
   mm = addZero(mm);
   ss = addZero(ss);
-  document.getElementById("time").innerHTML = hr12(hh) + ":" + mm + ampm(hh) + " JST";
-  document.getElementById("date").innerHTML = dd + " " + month(mt) + " " + yy;
+  document.getElementById("time").innerHTML = `${hr12(hh)}:${mm}${ampm(hh)} JST`;
+  document.getElementById("date").innerHTML = `${dd} ${month(mt)} ${yy}`;
   setTimeout(jstClock, 0);
 }
 function addZero(z) {
