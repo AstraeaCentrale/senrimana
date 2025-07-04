@@ -3,29 +3,41 @@
   <DAILY>
     <URL>https://x.com/i/status/1930544003604459657</URL>
     <IMGID>WvL41ykW4AQkWl2wz4vovsIwL5pYOqqVOqgT9DpQr-bcq7E8ZZW8raFQEPDVWuCB1iO7kPuuX3HnbQ</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE>
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
-    <AUTHOR>mee_prcn (X)</AUTHOR>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>mee_prcn</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY>
     <URL>https://x.com/i/status/1939782968165507165</URL>
     <IMGID>AlDqfp3xpX5sfIrwunmHdakMG_hg0nmM4NxS-2mpNkZFwD-Cif2rsm9GRhrlVaukIyaeFRRow_7x</IMGID>
-    <STYLE>null</STYLE>
-    <FORMAT>screencap</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
-    <AUTHOR>Hikayuchannel (X)</AUTHOR>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>screencap</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>Hikayuchannel</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY>
     <URL>https://x.com/i/status/1940055582452719781</URL>
     <IMGID>uvaHTO_yZKkYzp9K7LvJUYyDvWqr2_JNSy9iVUE_XOMk4KhwFAX-UPv_YkJH5zuGnFEx9PZUMz1rmMM</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE>
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
     <AUTHOR>sora428632</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY>
     <URL>https://x.com/i/status/1939837205406785865</URL>
     <IMGID>L_tSlKv2qTiXC7uro8jOeG6kKUoLjGwMUQ9flw3oK86wcVqgsOgLrd33_ypfryVSxE2755jeVUqp</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE>
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
     <AUTHOR>kuroha4416</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1940510734095679866</URL>
+    <IMGID>oKUmkuGBqhND4GcAzEFhIqPiXrzsONIcWOetB6VhIPhQn1UB6ERYvQCU_7mfeaQOvbK6q7QPEJy9NQ</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>SAYO_61</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
   </DAILY>
 </KAISER>

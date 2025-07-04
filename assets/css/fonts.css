@@ -1,6 +1,5 @@
 @font-face {
-  font-family: "SimSun";
+  font-family: "KaiserSimSun";
   src:
-    local("SimSun"),
-    url("/senrimana/assets/fonts/simsun.woff") format("woff");
+    url("/assets/fonts/simsun.woff") format("woff");
 }

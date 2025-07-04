@@ -26,7 +26,7 @@ function broadcastLineup(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
+  xhttp.open("GET", `/assets/xml/${year}_lineup.xml`, true);
   xhttp.send();
 }
 
@@ -43,14 +43,15 @@ function dailyKaiser(year) {
   function gallery(xml) {
     let out = "",
       xmlDoc = xml.responseXML,
-      m = xmlDoc.getElementsByTagName("DAILY");
+      m = xmlDoc.getElementsByTagName("DAILY"),
+      platformID = ["X", "pixiv", "Reddit", "DeviantArt"];
     for (let k = 0; k < m.length; k++) {
       out += `
         <div eventDays onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
             <span style="font-size: .875rem;">DAY ${k + 1}</span>
-            <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}</span>
+            <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
           </div>
         </div>
       `;
@@ -62,7 +63,7 @@ function dailyKaiser(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+  xhttp.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
   xhttp.send();
 }
 
