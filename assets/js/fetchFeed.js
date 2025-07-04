@@ -26,7 +26,7 @@ function broadcastLineup(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  xhttp.open("GET", `/assets/xml/${year}_lineup.xml`, true);
+  xhttp.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
   xhttp.send();
 }
 
@@ -63,7 +63,7 @@ function dailyKaiser(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  xhttp.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
+  xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
   xhttp.send();
 }
 
