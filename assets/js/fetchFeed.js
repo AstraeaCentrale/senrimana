@@ -7,10 +7,10 @@ function broadcastLineup(year) {
       b = xmlDoc.getElementsByTagName("LIVE");
     for (let k = 0; k < b.length; k++) {
       out += `
-        <div style="display: ${b[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('https://youtu.be/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}')"> <!-- event -->
+        <div lineupSheet style="display: ${b[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('https://youtu.be/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}')"> <!-- event -->
           <img src="https://i.ytimg.com/vi/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}/hq720.jpg" alt="" width="375px">
           <div>
-            <span type="date">${b[k].getElementsByTagName("DATE")[0].childNodes[0].nodeValue}</span>
+            <span type="date">${k + 1} Jul 2025</span>
             <br>
             <span type="eventTitle">${b[k].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue}</span>
             <br>

@@ -2,7 +2,7 @@ function start() {
   inPageStart(); // per page start
 }
 // global variables
-const tD = new Date(new Date().getTime() + diffOffs(9));
+let tD = new Date(new Date().getTime() + diffOffs(9));
 
 function jstClock() {
   let mt = tD.getMonth(),
@@ -65,7 +65,10 @@ function isLineupActive(s) {
   }
 }
 
-function lineupUpdated(mm, dd, yy) {
-  const dt = new Date(new Date(yy, mm, dd).getTime() + diffOffs(9));
-  document.getElementById("lineupUpd").innerHTML = dt.getDate() + " " + month(dt.getMonth() - 1) + " " + dt.getFullYear() + " JST";
+function showSchedule(year) {
+  document.body.insertAdjacentHTML("beforebegin", `
+    <div id="sch" onclick="document.getElementById('sch').remove();" tabindex="0">
+      <img src="/senrimana/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
+    </div>
+  `);
 }
