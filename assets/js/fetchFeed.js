@@ -33,7 +33,8 @@ function broadcastLineup(year) {
 }
 
 function isOngoing() {
-  let dates = document.querySelectorAll("span[type='date']");
+  let dates = document.querySelectorAll("span[type='date']"),
+    tD = new Date(new Date().getTime() + diffOffs(9));
   dates.forEach(date => {
     if (date.innerHTML.includes(`${tD.getDate()} ${month(tD.getMonth())} ${tD.getFullYear()}`)) {
       date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x2B24 ONGOING</span>`;

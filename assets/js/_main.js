@@ -1,11 +1,10 @@
 function start() {
   inPageStart(); // per page start
 }
-// global variables
-let tD = new Date(new Date().getTime() + diffOffs(9));
 
 function jstClock() {
-  let mt = tD.getMonth(),
+  let tD = new Date(new Date().getTime() + diffOffs(9)),
+    mt = tD.getMonth(),
     dd = tD.getDate(),
     yy = tD.getFullYear(),
     hh = tD.getHours(),
