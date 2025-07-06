@@ -1,12 +1,8 @@
 @import url("/senrimana/assets/css/fonts.css");
 
-:root {
-  --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%);
-}
+:root { --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%); }
 
-html {
-  background-color: #3d374c !important;
-}
+html { background-color: #3d374c !important; }
 body {
   background-image: url("/senrimana/assets/images/background/kaizaBG.png");
   background-size: cover;
@@ -55,9 +51,7 @@ footer {
   color: #cabbb3;
   background-color: #464042;
 }
-footer > span {
-  display: block;
-}
+footer > span { display: block; }
 
 .intro {
   width: 100vw;
@@ -91,9 +85,7 @@ div[flexSheet] {
   justify-content: space-between;
   align-items: center;
 }
-div[flexSheet] > div[btns] > .material-symbols-outlined:hover {
-  color: red;
-}
+div[flexSheet] > div[btns] > .material-symbols-outlined:hover { color: red; }
 div[flexSheet] > span, div[flexSheet] > div[btns] > span {
   font-size: 1.75rem;
   font-weight: bold;
@@ -108,18 +100,14 @@ span[instructText] {
   font-size: medium;
   font-weight: bold;
 }
-span[instructSym] {
-  cursor: initial !important;
-}
+span[instructSym] { cursor: initial !important; }
 .eventFeed {
   overflow: auto;
   white-space: nowrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.eventFeed::-webkit-scrollbar {
-  display: none;
-}
+.eventFeed::-webkit-scrollbar { display: none; }
 .eventFeed > div {
   margin: 2rem .5rem 0 .5rem;
   width: 375px;
@@ -130,9 +118,7 @@ span[instructSym] {
   display: inline-block;
   cursor: pointer;
 }
-.eventFeed > div:hover {
-  background-color: #1c1822;
-}
+.eventFeed > div:hover { background-color: #1c1822; }
 .eventFeed > div > div {
   width: -moz-fit-content;
   width: fit-content;
@@ -145,12 +131,8 @@ span[instructSym] {
   object-fit: cover;
   aspect-ratio: 16 / 9;
 }
-.eventFeed > div > div > span {
-  display: block;
-}
-span[type="date"] {
-  font-size: .8rem;
-}
+.eventFeed > div > div > span { display: block; }
+span[type="date"] { font-size: .8rem; }
 .liveOngoing {
   font-weight: bold;
   color: red;
@@ -160,30 +142,20 @@ span[type="date"] {
   animation: blink 2.5s linear infinite;
 }
 @keyframes blink {
-  50% {
-    opacity: 0;
-  }
+  50% { opacity: 0; }
 }
 span[type="eventTitle"] {
   font-size: 1.15rem;
   font-weight: bold;
 }
-span[type="eventText"] {
-  font-size: 1rem;
-}
+span[type="eventText"] { font-size: 1rem; }
 div[pastLineup] {
   background-color: #3d374c;
   padding: 2rem;
 }
-.pastLineups > div {
-  width: 250px !important;
-}
-.pastLineups > div[unreleased] {
-  display: none;
-}
-.pastLineups > div > div > span[eventTitle] {
-  font-size: .7rem;
-}
+.pastLineups > div { width: 250px !important; }
+.pastLineups > div[unreleased] { display: none; }
+.pastLineups > div > div > span[eventTitle] { font-size: .7rem; }
 
 .noVOD {
   display: none;
@@ -195,9 +167,7 @@ div[pastLineup] {
   -ms-overflow-style: initial;
 }
 
-div[class="intro"] > div > div > div[socials] {
-  margin: unset;
-}
+div[class="intro"] > div > div > div[socials] { margin: unset; }
 
 div[dailyKaiser] {
   padding: 2rem;
@@ -211,32 +181,16 @@ div[dailyKaiser] > #dailyKaiser > div {
   color: #3d374c;
   font-weight: bold;
 }
-div[dailyKaiser] > #dailyKaiser > div:hover {
-  background-color: #b1afad;
-}
-div[dailyKaiser] > #dailyKaiser > div > img {
-  aspect-ratio: 1 / 1;
-}
-div[dailyKaiser] > #dailyKaiser > div > div > .author::before {
-  content: "illust. ";
-}
+div[dailyKaiser] > #dailyKaiser > div:hover { background-color: #b1afad; }
+div[dailyKaiser] > #dailyKaiser > div > img { aspect-ratio: 1 / 1; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author::before { content: "illust. "; }
 
 /* override default span in #dailyKaiser */
-div[dailyKaiser] > #dailyKaiser > div > div > .author[memeFormat]::before {
-  content: "a meme by ";
-}
-div[dailyKaiser] > #dailyKaiser > div > div > .author[GIFormat]::before {
-  content: "GIF provided by ";
-}
-div[dailyKaiser] > #dailyKaiser > div > div > .author[clipFormat]::before {
-  content: "clip from ";
-}
-div[dailyKaiser] > #dailyKaiser > div > div > .author[screencap]::before {
-  content: "screencap by ";
-}
-div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before {
-  content: "a picrew edit by ";
-}
+div[dailyKaiser] > #dailyKaiser > div > div > .author[memeFormat]::before { content: "a meme by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[GIFormat]::before { content: "GIF provided by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[clipFormat]::before { content: "clip from "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[screencap]::before { content: "screencap by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before { content: "a picrew edit by "; }
 
 div[senri] {
   background-image: url("/senrimana/assets/images/background/kaizaBG.png");
@@ -254,9 +208,7 @@ button[senri] {
   margin: 0 auto;
   font-weight: bold;
 }
-button[senri]:hover {
-  background-color: #1c1822;
-}
+button[senri]:hover { background-color: #1c1822; }
 img[senri] {
   aspect-ratio: 16 / 9;
   -o-object-fit: cover;
@@ -272,9 +224,7 @@ div[senriBorder] {
   background: var(--kaizaGr);
 }
 
-div[asTable] {
-  overflow: auto;
-}
+div[asTable] { overflow: auto; }
 div[asTable] > div {
   float: left;
   width: 50%;
@@ -301,12 +251,8 @@ div[socials] > span, svg {
   padding: 5px !important;
   cursor: pointer;
 }
-div[socials] > span:hover, svg:hover {
-  color: red;
-}
-div[socials] > svg {
-  height: 1.25rem !important;
-}
+div[socials] > span:hover, svg:hover { color: red; }
+div[socials] > svg { height: 1.25rem !important; }
 div[阿賀忠] {
   background-image: url("https://pbs.twimg.com/media/FbH9U7UVsAUzMMQ?format=jpg&name=4096x4096");
   background-position: center 40%;
@@ -340,44 +286,28 @@ img[showtaSenri] {
   width: 75rem;
   height: auto;
   max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * {
-  margin: 0;
-}
+div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * { margin: 0; }
 
 /* responsive display */
 @media screen and (max-width: 1000px) {
-  div[asTable] > div {
-    width: 100%;
-  }
+  div[asTable] > div { width: 100%; }
 }
 @media screen and (min-width: 900px) {
-  div[flexSheet] > .wide {
-    display: flex;
-  }
-  div[flexSheet] > .min {
-    display: none;
-  }
+  div[flexSheet] > .wide { display: flex; }
+  div[flexSheet] > .min { display: none; }
 }
 @media screen and (max-width: 900px) {
-  div[flexSheet] > .wide {
-    display: none;
-  }
-  div[flexSheet] > .min {
-    display: flex;
-  }
+  div[flexSheet] > .wide { display: none; }
+  div[flexSheet] > .min { display: flex; }
 }
 @media screen and (max-width: 500px) {
-  div[flexSheet] > .wide {
-    display: none;
-  }
-  div[flexSheet] > .min {
-    display: none;
-  }
+  div[flexSheet] > .wide { display: none; }
+  div[flexSheet] > .min { display: none; }
 }
 @media screen and (max-width: 400px) {
-  header > div {
-    display: none;
-  }
+  header > div { display: none; }
 }
