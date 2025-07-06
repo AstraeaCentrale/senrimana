@@ -295,6 +295,11 @@ img[showtaSenri] {
 
 div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * { margin: 0; }
 
+p[dailyKaiserBtnList] > button[senri] {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
 #displayCollection {
   display: grid;
   background-color: #e5e3e1;
