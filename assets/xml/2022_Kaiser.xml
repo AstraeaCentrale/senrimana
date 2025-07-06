@@ -1,0 +1,192 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<KAISER>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://youtu.be/Xo_l4sUhsqE</URL>
+    <IMGID>https://i.ytimg.com/vi/Xo_l4sUhsqE/hq720.jpg</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>ytVod</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>Mekkanok</AUTHOR>
+    <PLATFORMID>5</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://x.com/i/status/1219890247229534208</URL>
+    <IMGID>https://pbs.twimg.com/media/EO3rtXPUYAAhFqF?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>chacomomo1224</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://youtu.be/Cq-kwWvBkik</URL>
+    <IMGID>https://i.ytimg.com/vi/Cq-kwWvBkik/hq720.jpg</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>ytVod</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>Peko MMD Ch.</AUTHOR>
+    <PLATFORMID>5</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4401400</URL>
+    <IMGID>https://pbs.twimg.com/media/FW0IrDhVEAE89z9?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: 65% center; object-position: 65% center;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>cometalice</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://yande.re/post/show/783673</URL>
+    <IMGID>https://pbs.twimg.com/media/FW7t-n4UEAAAeyR?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>laoan</AUTHOR>
+    <PLATFORMID>6</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402963</URL>
+    <IMGID>https://pbs.twimg.com/media/FW-CopEVUAE9cBg?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>yosuzu</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402963</URL>
+    <IMGID>https://pbs.twimg.com/media/FW-CopEVUAE9cBg?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>yosuzu</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/72729506</URL>
+    <IMGID>https://pbs.twimg.com/media/FXINrbQaUAEeSVH?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>稲荷御前守助廣</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/82677732</URL>
+    <IMGID>https://pbs.twimg.com/media/FXNllmSVUAIZpRK?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>稲荷御前守助廣</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/82677732</URL>
+    <IMGID>https://pbs.twimg.com/media/FXNllmSVUAIZpRK?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>稲荷御前守助廣</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://x.com/i/status/1546520117936197634</URL>
+    <IMGID>https://pbs.twimg.com/media/FXZX2emUsAEq3YN?format=png&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>photoshoot</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>阿賀忠</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://natalie.mu/comic/news/375876</URL>
+    <IMGID>https://pbs.twimg.com/media/FXfnQyYUYAEKwtP?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: 35% center; object-position: 35% center;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>Cygames, Inc.</AUTHOR>
+    <PLATFORMID>7</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://x.com/ryoito_no_oka/status/1209834304366247936</URL>
+    <IMGID>https://pbs.twimg.com/media/EMox4ajU8AAIRsJ?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ryoito_no_oka</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://x.com/ryoito_no_oka/status/1209834304366247936</URL>
+    <IMGID>https://pbs.twimg.com/media/EMox4ajU8AAIRsJ?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ryoito_no_oka</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402717</URL>
+    <IMGID>https://pbs.twimg.com/media/FXtQhNyUsAMXZJ5?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ghound</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402717</URL>
+    <IMGID>https://pbs.twimg.com/media/FXtQhNyUsAMXZJ5?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ghound</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402717</URL>
+    <IMGID>https://pbs.twimg.com/media/FXtQhNyUsAMXZJ5?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ghound</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://danbooru.donmai.us/posts/4402717</URL>
+    <IMGID>https://pbs.twimg.com/media/FXtQhNyUsAMXZJ5?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ghound</AUTHOR>
+    <PLATFORMID>4</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/97244416</URL>
+    <IMGID>https://pbs.twimg.com/media/FYBsDbwaMAATXXw?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center 20%; object-position: center 20%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>unknown (presumably deleted)</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>none</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/97244416</URL>
+    <IMGID>https://pbs.twimg.com/media/FYBsDbwaMAATXXw?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>unknown (presumably deleted)</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <VISIBILITY>block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/84437351</URL>
+    <IMGID>https://pbs.twimg.com/media/FYM3Gt3VsAE2S0B?format=jpg&amp;name=4096x4096</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use null for default ("illust.") -->
+    <AUTHOR>ヒーロー</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+</KAISER>

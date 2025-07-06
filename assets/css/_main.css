@@ -9,7 +9,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "KaiserSimSun", serif !important;
+  font-family: "KaiserSimSun", "Nanum Myeongjo", serif !important;
   color: #e5e3e1;
 }
 
@@ -85,7 +85,7 @@ div[flexSheet] {
   justify-content: space-between;
   align-items: center;
 }
-div[flexSheet] > div[btns] > .material-symbols-outlined:hover { color: red; }
+div[flexSheet] > .material-symbols-outlined:hover, div[flexSheet] > div[btns] > .material-symbols-outlined:hover { color: red; }
 div[flexSheet] > span, div[flexSheet] > div[btns] > span {
   font-size: 1.75rem;
   font-weight: bold;
@@ -191,6 +191,9 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[GIFormat]::before { conten
 div[dailyKaiser] > #dailyKaiser > div > div > .author[clipFormat]::before { content: "clip from "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[screencap]::before { content: "screencap by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before { content: "a picrew edit by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[photoshoot]::before { content: "a photo by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[ytVod]::before { content: "a video by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content: "cosplay by "; }
 
 div[senri] {
   background-image: url("/senrimana/assets/images/background/kaizaBG.png");
@@ -292,6 +295,43 @@ img[showtaSenri] {
 
 div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * { margin: 0; }
 
+button {
+  font-size: inherit;
+  margin-bottom: .75rem;
+}
+
+#displayCollection {
+  display: grid;
+  background-color: #e5e3e1;
+}
+#displayCollection > div {
+  float: left;
+  margin: .5rem;
+  border: #3d374c solid .125rem;
+  border-radius: 1rem;
+  background-color: #e5e3e1;
+  color: #3d374c;
+  font-weight: bold;
+  overflow: hidden;
+  cursor: pointer;
+}
+#displayCollection > div:hover { background-color: #b1afad; }
+#displayCollection > div > img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+#displayCollection > div > div { padding: 1.25rem; }
+#displayCollection > div > div > span { display: block; }
+#displayCollection > div > div > .author::before { content: "illust. "; }
+#displayCollection > div > div > .author[memeFormat]::before { content: "a meme by "; }
+#displayCollection > div > div > .author[GIFormat]::before { content: "GIF provided by "; }
+#displayCollection > div > div > .author[clipFormat]::before { content: "clip from "; }
+#displayCollection > div > div > .author[screencap]::before { content: "screencap by "; }
+#displayCollection > div > div > .author[picrew]::before { content: "a picrew edit by "; }
+#displayCollection > div > div > .author[photoshoot]::before { content: "a photo by "; }
+#displayCollection > div > div > .author[ytVod]::before { content: "a video by "; }
+#displayCollection > div > div > .author[cosplay]::before { content: "cosplay by "; }
+
 /* responsive display */
 @media screen and (max-width: 1000px) {
   div[asTable] > div { width: 100%; }
@@ -310,4 +350,21 @@ div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventD
 }
 @media screen and (max-width: 400px) {
   header > div { display: none; }
+}
+
+/* responsive grid */
+@media screen and (max-width: 480px) {
+  #displayCollection { grid-template-columns: 100%; }
+}
+@media screen and (min-width: 480px) {
+  #displayCollection { grid-template-columns: 50% 50%; }
+}
+@media screen and (min-width: 640px) {
+  #displayCollection { grid-template-columns: 33.33% 33.33% 33.33%; }
+}
+@media screen and (min-width: 1280px) {
+  #displayCollection { grid-template-columns: 25% 25% 25% 25%; }
+}
+@media screen and (min-width: 1920px) {
+  #displayCollection { grid-template-columns: 20% 20% 20% 20% 20%; }
 }
