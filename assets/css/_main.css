@@ -295,11 +295,6 @@ img[showtaSenri] {
 
 div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * { margin: 0; }
 
-button {
-  font-size: inherit;
-  margin-bottom: .75rem;
-}
-
 #displayCollection {
   display: grid;
   background-color: #e5e3e1;
