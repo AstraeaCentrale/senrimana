@@ -34,9 +34,9 @@ function broadcastLineup(year) {
 
 function isOngoing() {
   let dates = document.querySelectorAll("span[type='date']"),
-    tD = new Date(new Date().getTime() + diffOffs(9));
+    ongoingDate = new Date(new Date().getTime() + diffOffs(9));
   dates.forEach(date => {
-    if (date.innerHTML.includes(`${tD.getDate()} ${month(tD.getMonth())} ${tD.getFullYear()}`)) {
+    if (date.innerHTML.includes(`${ongoingDate.getDate()} ${month(ongoingDate.getMonth())} ${ongoingDate.getFullYear()}`)) {
       date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x2B24 ONGOING</span>`;
     }
   });
@@ -70,14 +70,15 @@ function dailyKaiser(year) {
 }
 
 function inactiveUnlessPassed() {
-  let days = document.querySelectorAll("div[eventDays]");
+  let days = document.querySelectorAll("div[eventDays]"),
+    inactiveDate = new Date(new Date().getTime() + diffOffs(9));
   for (let dK = 0; dK < days.length; dK++) {
     days[dK]?.setAttribute("style", "display: none;");
   }
   for (let dK = 0; dK < days.length; dK++) {
     let day = days[dK].querySelector("span");
     if (day.innerHTML.includes(`DAY ${dK + 1}`)) {
-      if (tD.getDate() >= dK + 1) {
+      if (inactiveDate.getDate() >= dK + 1) {
         days[dK]?.setAttribute("style", "display: inline-block;");
       }
     }
@@ -135,7 +136,7 @@ function showCollection(year) {
     };
     xhttp.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
     xhttp.send();
-  } else if (year == "2024" || year == "2025") {
+  } else {
     function gallery(xml) {
       let out = "",
         xmlDoc = xml.responseXML,

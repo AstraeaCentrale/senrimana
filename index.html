@@ -42,6 +42,7 @@
     </script>
     <script type="text/javascript">
       // inpage js
+      let calDate = new Date(new Date().getTime() + diffOffs(9));
     </script>
   </head>
   <body onload="start()">
@@ -108,7 +109,7 @@
         <div scrollInstruct class="min"><span instructSym class="material-symbols-outlined">arrow_back</span><span instructText>&ensp;scroll&ensp;</span><span instructSym class="material-symbols-outlined">arrow_forward</span></div>
         <div btns>
           <span class="material-symbols-outlined" title="check out the series on YouTube" onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G')">video_library</span>
-          <span class="material-symbols-outlined" title="view this year's event schedule" onclick="showSchedule(`${tD.getFullYear()}`)">calendar_month</span>
+          <span class="material-symbols-outlined" title="view this year's event schedule" onclick="showSchedule(`${calDate.getFullYear()}`)">calendar_month</span>
         </div>
       </div>
       <div id="vodList" class="eventFeed"> <!-- 2025 broadcast lineup -->
