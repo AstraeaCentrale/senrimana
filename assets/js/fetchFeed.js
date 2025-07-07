@@ -153,7 +153,6 @@ function showCollection(year) {
         `;
       }
       document.getElementById("displayCollection").innerHTML = out;
-      if (year == "2025") { inactiveUnlessPassed(); }
     }
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
