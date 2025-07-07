@@ -67,7 +67,7 @@ function isLineupActive(s) {
 function showSchedule(year) {
   document.body.insertAdjacentHTML("beforebegin", `
     <div id="sch" onclick="document.getElementById('sch').remove();" tabindex="0">
-      <img src="/senrimana/assetsimages/schedsheet/${year}_schedule.png" alt="schedule">
+      <img src="/senrimana/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
     </div>
   `);
 }

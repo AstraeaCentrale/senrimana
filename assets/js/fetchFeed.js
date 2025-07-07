@@ -28,7 +28,7 @@ function broadcastLineup(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  xhttp.open("GET", `/senrimana/assetsxml/${year}_lineup.xml`, true);
+  xhttp.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
   xhttp.send();
 }
 
@@ -66,7 +66,7 @@ function dailyKaiser(year) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  xhttp.open("GET", `/senrimana/assetsxml/${year}_Kaiser.xml`, true);
+  xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
   xhttp.send();
 }
 
@@ -115,7 +115,7 @@ function showCollection(year) {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assetsxml/2022_Kaiser.xml`, true);
+    xhttp.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
     xhttp.send();
   } else if (year == "2023") {
     function gallery(xml) {
@@ -139,7 +139,7 @@ function showCollection(year) {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assetsxml/2023_Kaiser.xml`, true);
+    xhttp.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
     xhttp.send();
   } else {
     function gallery(xml) {
@@ -163,7 +163,7 @@ function showCollection(year) {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assetsxml/${year}_Kaiser.xml`, true);
+    xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
     xhttp.send();
   }
 }

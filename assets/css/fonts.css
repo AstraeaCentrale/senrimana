@@ -4,5 +4,5 @@
   font-family: "KaiserSimSun";
   src:
     local("SimSun"),
-    url("/senrimana/assetsfonts/simsun.woff") format("woff");
+    url("/senrimana/assets/fonts/simsun.woff") format("woff");
 }
