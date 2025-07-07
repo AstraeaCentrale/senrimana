@@ -1,10 +1,10 @@
-@import url("/senrimana/assets/css/fonts.css");
+@import url("/senrimana/assetscss/fonts.css");
 
 :root { --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%); }
 
 html { background-color: #3d374c !important; }
 body {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assetsimages/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ header {
   top: 0;
   z-index: 701;
   background-image: #3d374c;
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assetsimages/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ footer > span { display: block; }
 .intro {
   width: 100vw;
   height: 100vh;
-  /* background-image: url("/senrimana/assets/images/background/20240625_1.png"); */
+  /* background-image: url("/senrimana/assetsimages/background/20240625_1.png"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ footer > span { display: block; }
 .intro > div {
   width: 100vw;
   background-color: #1c1822c0;
-  padding: 15rem 2rem;
+  padding: 15rem 1rem;
 }
 .intro > div > div {
   width: 625px;
@@ -74,13 +74,14 @@ footer > span { display: block; }
 }
 
 div[latestLineup] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assetsimages/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 2rem;
+  padding: 1rem;
 }
 div[flexSheet] {
+  padding: .5rem .5rem 1rem .5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +110,7 @@ span[instructSym] { cursor: initial !important; }
 }
 .eventFeed::-webkit-scrollbar { display: none; }
 .eventFeed > div {
-  margin: 2rem .5rem 0 .5rem;
+  margin: 1rem .5rem 0 .5rem;
   width: 375px;
   background-color: #3d374c;
   border: #e5e3e1 solid .125rem;
@@ -142,7 +143,9 @@ span[type="date"] { font-size: .8rem; }
   animation: blink 2.5s linear infinite;
 }
 @keyframes blink {
+  5% { opacity: 1; }
   50% { opacity: 0; }
+  95% { opacity: 1; }
 }
 span[type="eventTitle"] {
   font-size: 1.15rem;
@@ -151,7 +154,7 @@ span[type="eventTitle"] {
 span[type="eventText"] { font-size: 1rem; }
 div[pastLineup] {
   background-color: #3d374c;
-  padding: 2rem;
+  padding: 1rem;
 }
 .pastLineups > div { width: 250px !important; }
 .pastLineups > div[unreleased] { display: none; }
@@ -170,7 +173,7 @@ div[pastLineup] {
 div[class="intro"] > div > div > div[socials] { margin: unset; }
 
 div[dailyKaiser] {
-  padding: 2rem;
+  padding: 1rem;
   background-color: #e5e3e1;
   color: #3d374c;
 }
@@ -196,7 +199,7 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[ytVod]::before { content: 
 div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content: "cosplay by "; }
 
 div[senri] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/senrimana/assetsimages/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -237,7 +240,7 @@ div[asTable] > div {
 div[asTable] > div > div {
   width: 100%;
   height: 100%;
-  padding: 15rem 2rem;
+  padding: 15rem 1rem;
   background-color: #3d374cc0;
 }
 div[asTable] > div > div > div {
@@ -300,7 +303,13 @@ p[dailyKaiserBtnList] > button[senri] {
   margin-bottom: .5rem;
 }
 
+#dKTitle {
+  background-color: #e5e3e1;
+  color: #3d374c;
+  padding: 1rem 1rem .5rem 1rem;
+}
 #displayCollection {
+  padding: .5rem;
   display: grid;
   background-color: #e5e3e1;
 }
