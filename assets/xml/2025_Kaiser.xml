@@ -64,4 +64,12 @@
     <AUTHOR>isumi_saga</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1849119461468680452</URL>
+    <IMGID>Uy2TfLXi-j28HFwMsCpGoDvQ3aaBmxN8uHeGo6DlKNK9H-Ns0pZboizTukdJ0HeVBxTrBik8u1mw_qc</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>NIKEOB1</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
 </KAISER>
