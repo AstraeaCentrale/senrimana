@@ -72,4 +72,20 @@
     <AUTHOR>NIKEOB1</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1226567926565654528</URL>
+    <IMGID>6w-jPjnlAXyMX0X8cDfHWdVGKyE8ajkqJqW0dZwpJx4s6lTfAOAAG0hSBxUYjSqvLxuoiUR2L2XH</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>e0ka93ka7</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1887306718113374259</URL>
+    <IMGID>htXvH_eh6QwEoNhofRdR8HyTyyxeM7zxvS_Db_MXn3ksY-HMaSQccaU7CFbRE51tms_u6WBDOna6muI</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>umeco_bucha</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
 </KAISER>
