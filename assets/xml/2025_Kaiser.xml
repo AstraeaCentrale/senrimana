@@ -88,4 +88,12 @@
     <AUTHOR>umeco_bucha</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1939251736436150535</URL>
+    <IMGID>bCSjjr_ZxWS7NdWD8k0aojERsMGjzqVTwwjHsNHl0ZG-FQsKrEEIU3JDpEyy-di_JGNKqCbHUx7geQ</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>photoshoot</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>SAYO_61</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
 </KAISER>
