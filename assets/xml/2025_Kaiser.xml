@@ -99,7 +99,7 @@
   <DAILY>
     <URL>https://www.pixiv.net/en/artworks/130638804</URL>
     <IMGID>Hh8kgECZwdx8rC1Jqk5aEjoYTn9iTHflk_o2GEmNO67rbYqGCaDr-YOyeB7EhyWyJAuTKqM7COliRQ</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
