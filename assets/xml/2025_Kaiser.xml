@@ -104,4 +104,12 @@
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/78514659</URL>
+    <IMGID>6cwjCKPzJMkwSM-N6MWTHWuaxmK0SxuVTT_ajE49J5X3tnQa2SCbsuMn3UF3-sW3SZ1mIlqNxlngE94</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>黒工房</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
