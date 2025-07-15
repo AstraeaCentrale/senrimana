@@ -120,4 +120,12 @@
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/106450899</URL>
+    <IMGID>SEKdyn0GKfhcOoTn3bDB6U09PK1qsGTakBvwFqZbmfzD85PPA1D9oj91-8WBJdMeO1IYl6FvbNI</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>りむ＠冬コミ１日めQ34a</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
