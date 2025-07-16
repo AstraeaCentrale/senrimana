@@ -128,4 +128,12 @@
     <AUTHOR>りむ＠冬コミ１日めQ34a</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/113571487</URL>
+    <IMGID>rRO2UUjI4cR8aJ3Uuwq6nC7JzkN7w_ortLrldJSw7PIxhwbq9XcXi1yceafrWRu6a4wBiE1xzrzuLdM</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>Nobi</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
