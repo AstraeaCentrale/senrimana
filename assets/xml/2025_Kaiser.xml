@@ -136,4 +136,12 @@
     <AUTHOR>Nobi</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/121825239</URL>
+    <IMGID>6blOhhJpRB1Zkb2Y9i2MXEIPAPDvF6UCFlx-Y1mdnrTb26zOcoX9PyONtn9utwQhIk3wW8gB9ymaRg</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>極上！乳首ストーカーパラダイス</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
