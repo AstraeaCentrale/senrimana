@@ -33,12 +33,17 @@ function broadcastLineup(year) {
 }
 
 function isOngoing() {
-  let dates = document.querySelectorAll("span[type='date']"),
+  let dates = document.querySelectorAll(`span[type="date"]`),
     ongoingDate = new Date(new Date().getTime() + diffOffs(9)),
     currDate = new RegExp(`\\b${ongoingDate.getDate()} ${month(ongoingDate.getMonth())} ${ongoingDate.getFullYear()}\\b`);
-  dates.forEach(date => {
-    if (currDate.test(date.innerHTML)) {
-      date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x2B24 ONGOING</span>`;
+  dates.forEach((date) => { // PHASE 1: live is ongoing
+    if (currDate.test(date.innerHTML)) { date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x1F534 ONGOING</span>`; }
+  });
+  dates.forEach((date) => { // PHASE 2: live not started but already passed scheduled date
+    let dayNumMatch = date.innerHTML.match(/(\d+)\s+\w+\s+\d{4}/);
+    if (dayNumMatch) {
+      let dayNum = parseInt(dayNumMatch[1], 10);
+      if (ongoingDate.getDate() > dayNum) { date.innerHTML = `<span style="color: #ecd6a1; font-weight: bold; margin: 0;">&#x1F553 DELAYED START</span>`; }
     }
   });
 }
