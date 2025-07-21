@@ -160,4 +160,12 @@
     <AUTHOR>Rofu</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1939846295222706565</URL>
+    <IMGID>8iZUXO_KWc3YdIGEdk541aT9Fp7_0IO73THi-G9MZ8FRHleyWeiYM2vQ9teKZJUEA9UKAe_cKtfU</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>omoi8mabuta1_1</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
 </KAISER>
