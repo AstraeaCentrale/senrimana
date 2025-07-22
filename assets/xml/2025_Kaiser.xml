@@ -176,4 +176,12 @@
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://x.com/i/status/1935626140380750091</URL>
+    <IMGID>u_rIor35Ec_SXl5m-QEW2CnjmQyJmHU2VvYu19SzJCq_AldZ1683dmUngO2y-HDq4ilM18Iwf6OwAA</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>mee_prcn</AUTHOR>
+    <PLATFORMID>0</PLATFORMID>
+  </DAILY>
 </KAISER>
