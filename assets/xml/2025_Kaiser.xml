@@ -200,4 +200,12 @@
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/131832726</URL>
+    <IMGID>CKxGUPtkpZvADik1sKQ63EOswSZYJPUjPwizLN4JeMuU6MpCCcSXqB4IDcdDoV2X4-cV_IpkdZk-Wi0</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>PPPR</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
