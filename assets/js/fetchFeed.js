@@ -12,8 +12,7 @@ function broadcastLineup(year) {
         <div lineupSheet style="display: ${b[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('https://youtu.be/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}')"> <!-- event -->
           <img src="https://i.ytimg.com/vi/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}/hq720.jpg" alt="" width="375px">
           <div>
-            <span type="date">${k + 1} Jul 2025</span>
-            <br>
+            <span type="date" style="margin-bottom: 0.25rem;">${k + 1} Jul 2025</span>
             <span type="eventTitle">${b[k].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue}</span>
             <br>
             <span type="eventText">${b[k].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue}</span>
@@ -58,7 +57,7 @@ function dailyKaiser(year) {
         <div eventDays onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
-            <span style="font-size: .875rem;">DAY ${k + 1}</span>
+            <span style="font-size: .875rem; margin-bottom: 0.25rem;">DAY ${k + 1}</span>
             <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
           </div>
         </div>
