@@ -208,4 +208,20 @@
     <AUTHOR>PPPR</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/130209061</URL>
+    <IMGID>X8ynnAGd2CEkzojlJ1GwsK-Q--1wj26NBKT6CrvbELUbtarvTEmVr1jOqxec3cO6G_4epVLW0TOg0Vs</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>きらるが◎リクエスト受付中</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/78945339</URL>
+    <IMGID>JlrVArSXnmqACfhpLPwVFCYTZJVyoLnznKnK3jQCQuvEY79e7Fww3hC32mL6yFFPCfgrQnzOaL_dpds</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>VanillaFox2035</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
