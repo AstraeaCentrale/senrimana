@@ -23,12 +23,12 @@ function broadcastLineup(year) {
     document.getElementById("vodList").innerHTML = out;
     isOngoing();
   }
-  let xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  let ajxLoad = new XMLHttpRequest();
+  ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
-  xhttp.send();
+  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
+  ajxLoad.send();
 }
 
 function isOngoing() {
@@ -66,12 +66,12 @@ function dailyKaiser(year) {
     document.getElementById("dailyKaiser").innerHTML = out;
     inactiveUnlessPassed();
   }
-  let xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  let ajxLoad = new XMLHttpRequest();
+  ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
-  xhttp.send();
+  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+  ajxLoad.send();
 }
 
 function inactiveUnlessPassed() {
@@ -91,7 +91,7 @@ function inactiveUnlessPassed() {
 }
 
 function showCollection(year) {
-  let xhttp;
+  let ajxLoad;
   document.getElementById("dKContainer")?.setAttribute("style", "display: block;");
   document.getElementById("dKTitle")?.setAttribute("style", "display: flex;");
   document.getElementById("dKTitle").innerHTML = `
@@ -115,12 +115,12 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    ajxLoad = new XMLHttpRequest();
+    ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
-    xhttp.send();
+    ajxLoad.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
+    ajxLoad.send();
   } else if (year == "2023") {
     function gallery(xml) {
       let out = "",
@@ -139,12 +139,12 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    ajxLoad = new XMLHttpRequest();
+    ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
-    xhttp.send();
+    ajxLoad.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
+    ajxLoad.send();
   } else {
     function gallery(xml) {
       let out = "",
@@ -163,11 +163,11 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    ajxLoad = new XMLHttpRequest();
+    ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    xhttp.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
-    xhttp.send();
+    ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+    ajxLoad.send();
   }
 }
