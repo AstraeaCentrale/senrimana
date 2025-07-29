@@ -224,4 +224,12 @@
     <AUTHOR>VanillaFox2035</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
+  <DAILY>
+    <URL>https://www.pixiv.net/en/artworks/78512106</URL>
+    <IMGID>8_ovyxFVUSVXzbTAdJLLDAaUaPksYwZunZ2rosfAe0DpSV9I0O9MzNzvg7QCUSdl-dxYHESHs1j6WrE</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <AUTHOR>대해원</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
 </KAISER>
