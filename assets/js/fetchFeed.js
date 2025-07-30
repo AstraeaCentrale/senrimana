@@ -31,7 +31,7 @@ function broadcastLineup(year) {
       `;
     }
     document.getElementById("vodList").innerHTML = out;
-    isOngoing();
+    // isOngoing();
   }
   let ajxLoad = new XMLHttpRequest();
   ajxLoad.onreadystatechange = function() {
