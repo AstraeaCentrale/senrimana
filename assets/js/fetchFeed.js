@@ -1,6 +1,16 @@
 // workaround: https://www.w3schools.com/xml/ajax_xmlfile.asp 
 
-let platformID = ["X", "pixiv", "Reddit", "DeviantArt", "Danbooru", "YouTube", "yandere.re", "sourced externally"];
+let platformID = [
+  "X",
+  "pixiv",
+  "Reddit",
+  "DeviantArt",
+  "Danbooru",
+  "YouTube",
+  "yandere.re",
+  "sourced externally",
+  "VRoid Hub"
+];
 
 function broadcastLineup(year) {
   function vod(xml) {

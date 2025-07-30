@@ -197,6 +197,7 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before { content:
 div[dailyKaiser] > #dailyKaiser > div > div > .author[photoshoot]::before { content: "a photo by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[ytVod]::before { content: "a video by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content: "cosplay by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[vroid]::before { content: "vroid by "; }
 
 div[senri] {
   background-image: url("/senrimana/assets/images/background/kaizaBG.png");
