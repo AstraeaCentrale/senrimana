@@ -22,7 +22,7 @@ function broadcastLineup(year) {
         <div lineupSheet style="display: ${b[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('https://youtu.be/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}')"> <!-- event -->
           <img src="https://i.ytimg.com/vi/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}/hq720.jpg" alt="" width="375px">
           <div>
-            <span type="date" style="margin-bottom: 0.25rem;">${k + 1} Jul 2025</span>
+            <span type="date" style="margin-bottom: 0.25rem; font-weight: bold;">${k + 1} Jul 2025</span>
             <span type="eventTitle">${b[k].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue}</span>
             <br>
             <span type="eventText">${b[k].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue}</span>
@@ -45,14 +45,14 @@ function isOngoing() {
   let dates = document.querySelectorAll(`span[type="date"]`),
     ongoingDate = new Date(new Date().getTime() + diffOffs(9)),
     currDate = new RegExp(`\\b${ongoingDate.getDate()} ${month(ongoingDate.getMonth())} ${ongoingDate.getFullYear()}\\b`);
-  dates.forEach((date) => { // PHASE 1: live is ongoing
-    if (currDate.test(date.innerHTML)) { date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x1F534 ONGOING</span>`; }
-  });
-  dates.forEach((date) => { // PHASE 2: live not started but already passed scheduled date
+  dates.forEach((date) => {
+    // PHASE 1: live is ongoing
+    if (currDate.test(date.innerHTML)) { return date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x1F534 ONGOING</span>`; }
+    // PHASE 2: live not started but already past scheduled date
     let dayNumMatch = date.innerHTML.match(/(\d+)\s+\w+\s+\d{4}/);
     if (dayNumMatch) {
       let dayNum = parseInt(dayNumMatch[1], 10);
-      if (ongoingDate.getDate() > dayNum) { date.innerHTML = `<span style="color: #ecd6a1; font-weight: bold; margin: 0;">&#x1F553 DELAYED START</span>`; }
+      if (ongoingDate.getDate() > dayNum) { return date.innerHTML = `<span style="color: #ecd6a1; margin: 0;">&#x1F553 DELAYED START</span>`; }
     }
   });
 }

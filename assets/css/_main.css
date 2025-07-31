@@ -135,7 +135,6 @@ span[instructSym] { cursor: initial !important; }
 .eventFeed > div > div > span { display: block; }
 span[type="date"] { font-size: .8rem; }
 .liveOngoing {
-  font-weight: bold;
   color: red;
   -webkit-animation: blink 2.5s linear infinite;
   -moz-animation: blink 2.5s linear infinite;
