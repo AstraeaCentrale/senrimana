@@ -74,7 +74,7 @@ function dailyKaiser(year) {
       `;
     }
     document.getElementById("dailyKaiser").innerHTML = out;
-    inactiveUnlessPassed();
+    // inactiveUnlessPassed();
   }
   let ajxLoad = new XMLHttpRequest();
   ajxLoad.onreadystatechange = function() {
