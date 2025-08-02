@@ -37,7 +37,7 @@ function broadcastLineup(year) {
   ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
+  ajxLoad.open("GET", `/assets/xml/${year}_lineup.xml`, true);
   ajxLoad.send();
 }
 
@@ -47,7 +47,7 @@ function isOngoing() {
     currDate = new RegExp(`\\b${ongoingDate.getDate()} ${month(ongoingDate.getMonth())} ${ongoingDate.getFullYear()}\\b`);
   dates.forEach((date) => {
     // PHASE 1: live is ongoing
-    if (currDate.test(date.innerHTML)) { return date.innerHTML = `<span class="liveOngoing" style="margin: 0;">&#x1F534 ONGOING</span>`; }
+    if (currDate.test(date.innerHTML)) { return date.innerHTML = `<span class="flashPrompt" style="color: red; margin: 0;">&#x1F534 ONGOING</span>`; }
     // PHASE 2: live not started but already past scheduled date
     let dayNumMatch = date.innerHTML.match(/(\d+)\s+\w+\s+\d{4}/);
     if (dayNumMatch) {
@@ -80,7 +80,7 @@ function dailyKaiser(year) {
   ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+  ajxLoad.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
   ajxLoad.send();
 }
 
@@ -129,7 +129,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/2022_Kaiser.xml`, true);
     ajxLoad.send();
   } else if (year == "2023") {
     function gallery(xml) {
@@ -153,7 +153,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/2023_Kaiser.xml`, true);
     ajxLoad.send();
   } else {
     function gallery(xml) {
@@ -177,7 +177,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
     ajxLoad.send();
   }
 }

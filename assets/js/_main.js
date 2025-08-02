@@ -1,5 +1,6 @@
 function start() {
   inPageStart(); // per page start
+  ifSpecial();
 }
 
 function jstClock() {
@@ -67,7 +68,33 @@ function isLineupActive(s) {
 function showSchedule(year) {
   document.body.insertAdjacentHTML("beforebegin", `
     <div id="sch" onclick="document.getElementById('sch').remove();" tabindex="0">
-      <img src="/senrimana/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
+      <img src="/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
     </div>
   `);
+}
+
+// ifSpecial()
+
+function ifSpecial() {
+  let ifSpc = new URLSearchParams(window.location.search).get("ifSpecial");
+  if (ifSpc == "true") {
+    document.getElementById("btnSelSpecial").insertAdjacentHTML("beforeend", `
+      <span class="material-symbols-outlined"
+        title="listen to &quot;Summer Dream Refrain - Main Theme&quot;"
+        onclick="{
+          document.querySelector('audio').src = '/assets/audio/sdr_main.mp3';
+          document.querySelector('audio').onended = () => {
+            document.querySelector('audio').play();
+            document.querySelector('audio').currentTime = 10.8125;
+          };
+          document.querySelector('audio').play();
+          document.querySelector('header').innerHTML = \`
+            <p class='flashPrompt' style='margin: 0; padding: 0.5rem; font-weight: bold;'>
+              now playing: Summer Dream Refrain - Main Theme
+            </p>
+          \`;
+          document.querySelector('header').setAttribute('style', 'justify-content: center;');
+        }">music_note</span>
+    `);
+  }
 }

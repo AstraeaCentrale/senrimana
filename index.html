@@ -23,12 +23,12 @@
     <style type="text/css">
       /* inpage css */
       @import url("https://astraeacentrale.github.io/assets/css/index.css");
-      @import url("/senrimana/assets/css/_main.css"); /* this repo */
+      @import url("/assets/css/_main.css"); /* this repo */
     </style>
     <!-- js -->
     <script src="https://astraeacentrale.github.io/assets/js/_main.js" type="text/javascript"></script> <!-- AstraeaCentrale main -->
-    <script src="/senrimana/assets/js/_main.js" type="text/javascript"></script> <!-- this repo -->
-    <script src="/senrimana/assets/js/fetchFeed.js" type="text/javascript"></script>
+    <script src="/assets/js/_main.js" type="text/javascript"></script> <!-- this repo -->
+    <script src="/assets/js/fetchFeed.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" type="text/javascript"></script> <!-- fontawesome -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script> <!-- jquery. not used, but kept for reference I guess -->
     <script type="text/javascript">
@@ -46,8 +46,9 @@
     </script>
   </head>
   <body onload="start()">
+    <audio style="width: 0; height: 0;"></audio>
     <header>
-      <img src="/senrimana/assets/images/logo/千里真那Ch.png" alt="logo" width="125px">
+      <img src="/assets/images/logo/千里真那Ch.png" alt="logo" width="125px">
       <div>
         <div>
           <span id="time">fetching time..</span><br>
@@ -58,7 +59,7 @@
     <!-- <div class="intro" style="background-image: url('/assets/images/background/kaiza_seeYouNextYear.png');"></div> -->
     <div class="intro" style="background-image: url('/assets/images/background/Kaiza_Aga.png');"></div>
     <div class="intro" style="background-image: url('/assets/images/background/Kaiza_Aga.png'); width: unset; height: unset;">
-      <div style="padding-top: 30rem;">
+      <div>
         <div>
           <!-- <h1>Senri Mana is coming!!🖤💜</h1>
           <p>on 1 Jul 2024 at 12am JST, Senri Mana comes to the VTuber universe!!</p>
@@ -107,7 +108,7 @@
         <span>2025 re:wind🖤💜</span>
         <div scrollInstruct class="wide"><span instructSym class="material-symbols-outlined">arrow_back</span><span instructText>&emsp;scroll sideways to see the rest of the lineup&emsp;</span><span instructSym class="material-symbols-outlined">arrow_forward</span></div>
         <div scrollInstruct class="min"><span instructSym class="material-symbols-outlined">arrow_back</span><span instructText>&ensp;scroll&ensp;</span><span instructSym class="material-symbols-outlined">arrow_forward</span></div>
-        <div btns>
+        <div btns id="btnSelSpecial">
           <span class="material-symbols-outlined" title="check out the lineup on YouTube" onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G')">video_library</span>
           <!-- <span class="material-symbols-outlined" title="view this year's event schedule" onclick="showSchedule(`${calDate.getFullYear()}`)">calendar_month</span> -->
         </div>
@@ -127,19 +128,19 @@
       </div>
       <div class="eventFeed pastLineups"> <!-- previous lineups -->
         <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a9Wd24XHm8R8lGDwu0dRFIz')"> <!-- playlist -->
-          <img src="/senrimana/assets/images/yearly_pla/2022.png" alt="" width="250px">
+          <img src="/assets/images/yearly_pla/2022.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2022 broadcast lineup🖤💜</span>
           </div>
         </div>
         <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a_q32PuKPzw0O-ye_YOcnz1')"> <!-- playlist -->
-          <img src="/senrimana/assets/images/yearly_pla/2023.png" alt="" width="250px">
+          <img src="/assets/images/yearly_pla/2023.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2023 broadcast lineup🖤💜</span>
           </div>
         </div>
         <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a8seEk3SmEg7CJLWbXNM6m_')"> <!-- playlist -->
-          <img src="/senrimana/assets/images/yearly_pla/2024.png" alt="" width="250px">
+          <img src="/assets/images/yearly_pla/2024.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2024 broadcast lineup🖤💜</span>
           </div>
@@ -156,7 +157,7 @@
         <!-- contents in /senrimana/assets/xml/{year}_Kaiser.xml -->
       </div>
     </div>
-    <img showtaSenri src="/senrimana/assets/images/gif/AoiShoutaKaiserInsightGIF.gif" alt="Shouta Aoi as Senri Mana (PriConne Fes)">
+    <img showtaSenri src="/assets/images/gif/AoiShoutaKaiserInsightGIF.gif" alt="Shouta Aoi as Senri Mana (PriConne Fes)">
     <div senriBorder></div>
     <div asTable>
       <div 阿賀忠> <!-- thebelovedmoon -->
@@ -172,7 +173,7 @@
             </p>
             <p>
               she is the one behind many projects, most notably GourmetDayLife (that gave
-              rise to Astraea Centrale), ReactSquad, and successful projects such as
+              rise to Astraea Centrale), ReactSquad, and successful Collectives such as
               #MamaNyoSquad and VTresMarias -- to which she represented as the First Maria🍃
               on the latter.
             </p>
@@ -220,7 +221,7 @@
     <div senri>
       <button senri onclick="window.open('https://princess-connect.fandom.com/wiki/Kaiser_Insight')">learn more about her on PriConne Fandom</button>
       <br>
-      <img senri src="/senrimana/assets/images/senri_ibisUpscale.png" alt="Senri Mana (ibisPaint upscaled)" width="500px">
+      <img senri src="/assets/images/senri_ibisUpscale.png" alt="Senri Mana (ibisPaint upscaled)" width="500px">
     </div>
     <footer>
       <span>Senri Mana and related resources © 2018 Cygames, Inc.</span>
