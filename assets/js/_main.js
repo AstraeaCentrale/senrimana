@@ -82,7 +82,7 @@ function ifSpecial() {
       <span class="material-symbols-outlined"
         title="listen to &quot;Summer Dream Refrain - Main Theme&quot;"
         onclick="{
-          document.querySelector('audio').src = '/assets/audio/sdr_main.mp3';
+          document.querySelector('audio').src = '/senrimana/assets/audio/sdr_main.mp3';
           document.querySelector('audio').onended = () => {
             document.querySelector('audio').play();
             document.querySelector('audio').currentTime = 10.8125;
