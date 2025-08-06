@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
-
-@font-face {
-  font-family: "KaiserSimSun";
-  src:
-    local("SimSun"),
-    url("/senrimana/assets/fonts/simsun.woff") format("woff");
-}
