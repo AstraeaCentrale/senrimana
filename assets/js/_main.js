@@ -68,7 +68,7 @@ function isLineupActive(s) {
 function showSchedule(year) {
   document.body.insertAdjacentHTML("beforebegin", `
     <div id="sch" onclick="document.getElementById('sch').remove();" tabindex="0">
-      <img src="/senrimana/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
+      <img src="/assets/images/schedsheet/${year}_schedule.png" alt="schedule">
     </div>
   `);
 }
@@ -78,11 +78,15 @@ function showSchedule(year) {
 function ifSpecial() {
   let ifSpc = new URLSearchParams(window.location.search).get("ifSpecial");
   if (ifSpc == "true") {
+    // instantiate things that needs instantiating
+    document.body.insertAdjacentHTML("afterbegin", `
+      <audio style="width: 0; height: 0;"></audio>
+    `);
     document.getElementById("btnSelSpecial").insertAdjacentHTML("beforeend", `
       <span class="material-symbols-outlined"
-        title="listen to &quot;Summer Dream Refrain - Main Theme&quot;"
+        title="listen to the mystery music.."
         onclick="{
-          document.querySelector('audio').src = '/senrimana/assets/audio/sdr_main.mp3';
+          document.querySelector('audio').src = 'https://raw.githubusercontent.com/AstraeaCentrale/senrimana/refs/heads/audio/SummerDreamRefrain_theme.mp3';
           document.querySelector('audio').onended = () => {
             document.querySelector('audio').play();
             document.querySelector('audio').currentTime = 10.8125;

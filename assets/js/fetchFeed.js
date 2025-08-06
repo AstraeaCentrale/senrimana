@@ -37,7 +37,7 @@ function broadcastLineup(year) {
   ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { vod(this); }
   };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
+  ajxLoad.open("GET", `/assets/xml/${year}_lineup.xml`, true);
   ajxLoad.send();
 }
 
@@ -80,7 +80,7 @@ function dailyKaiser(year) {
   ajxLoad.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { gallery(this); }
   };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+  ajxLoad.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
   ajxLoad.send();
 }
 
@@ -129,7 +129,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/2022_Kaiser.xml`, true);
     ajxLoad.send();
   } else if (year == "2023") {
     function gallery(xml) {
@@ -153,7 +153,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/2023_Kaiser.xml`, true);
     ajxLoad.send();
   } else {
     function gallery(xml) {
@@ -177,7 +177,7 @@ function showCollection(year) {
     ajxLoad.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) { gallery(this); }
     };
-    ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
+    ajxLoad.open("GET", `/assets/xml/${year}_Kaiser.xml`, true);
     ajxLoad.send();
   }
 }

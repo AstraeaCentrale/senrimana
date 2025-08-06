@@ -1,10 +1,10 @@
-@import url("/senrimana/assets/css/fonts.css");
+@import url("/assets/css/fonts.css");
 
 :root { --kaizaGr: linear-gradient(to right, #b98b73 0%, #ecd6a1 50%, #b98b73 100%); }
 
 html { background-color: #3d374c !important; }
 body {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ header {
   top: 0;
   z-index: 701;
   background-color: #3d374c;
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ footer > span { display: block; }
 .intro {
   width: 100vw;
   height: 100vh;
-  /* background-image: url("/senrimana/assets/images/background/20240625_1.png"); */
+  /* background-image: url("/assets/images/background/20240625_1.png"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ footer > span { display: block; }
 }
 
 div[latestLineup] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content
 div[dailyKaiser] > #dailyKaiser > div > div > .author[vroid]::before { content: "vroid by "; }
 
 div[senri] {
-  background-image: url("/senrimana/assets/images/background/kaizaBG.png");
+  background-image: url("/assets/images/background/kaizaBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
