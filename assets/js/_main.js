@@ -88,7 +88,7 @@ function ifSpecial() {
           <h3>mystery music</h3>
           <div btnList>
             <button senri onclick="{
-              document.querySelector('audio[mnPlyr]').src = 'https://raw.githubusercontent.com/AstraeaCentrale/senrimana/refs/heads/audio/SummerDreamRefrain_theme.mp3';
+              document.querySelector('audio[mnPlyr]').src = 'https://media.githubusercontent.com/media/AstraeaCentrale/senrimana/refs/heads/audio/SummerDreamRefrain_theme.mp3';
               document.querySelector('audio[mnPlyr]').onended = () => {
                 document.querySelector('audio[mnPlyr]').play();
                 document.querySelector('audio[mnPlyr]').currentTime = 10.8125;
@@ -108,7 +108,7 @@ function ifSpecial() {
           <h3>#StateOfVTuber Theme</h3>
           <div btnList>
             <button senri onclick="{
-              document.querySelector('audio[mnPlyr]').src = 'https://raw.githubusercontent.com/AstraeaCentrale/senrimana/refs/heads/audio/NewYearTwinkleCrisis_theme.mp3';
+              document.querySelector('audio[mnPlyr]').src = 'https://media.githubusercontent.com/media/AstraeaCentrale/senrimana/refs/heads/audio/NewYearTwinkleCrisis_theme.mp3';
               document.querySelector('audio[mnPlyr]').onended = () => { document.querySelector('audio[mnPlyr]').play(); };
               document.querySelector('audio[mnPlyr]').play();
               document.querySelector('header').innerHTML = \`
