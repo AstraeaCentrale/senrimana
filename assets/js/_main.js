@@ -118,7 +118,7 @@ function ifSpecial() {
               \`;
               document.querySelector('header').setAttribute('style', 'justify-content: center;');
             }">play</button>
-            <button senri onclick="window.open('https://thebelovedmoon.github.io/?vt=stateofvtuber')">visit</button>
+            <button senri onclick="{ window.open('https://thebelovedmoon.github.io/?vt=stateofvtuber'); }">visit</button>
           </div>
         </div>
       </div></div>

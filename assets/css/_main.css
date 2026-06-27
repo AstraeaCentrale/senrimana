@@ -248,7 +248,8 @@ div[asTable] > div > div > div {
   max-width: 100%;
   margin: 0 auto;
 }
-div[socials] {
+
+/* div[socials] {
   display: block;
   margin: 0 auto;
 }
@@ -257,14 +258,29 @@ div[socials] > span, svg {
   cursor: pointer;
 }
 div[socials] > span:hover, svg:hover { color: red; }
-div[socials] > svg { height: 1.25rem !important; }
+div[socials] > svg { height: 1.25rem !important; } */
+
+.senriSocials {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-size: inherit;
+  * {
+    margin: 0 7.5px 7.5px 0;
+    cursor: pointer;
+  }
+  *:hover { color: red; }
+}
+
 div[阿賀忠] {
-  background-image: url("https://pbs.twimg.com/media/FbH9U7UVsAUzMMQ?format=jpg&name=4096x4096");
-  background-position: center 40%;
+  /* background-image: url("https://pbs.twimg.com/media/FbH9U7UVsAUzMMQ?format=jpg&name=4096x4096"); */
+  background-image: url("/senrimana/assets/images/seiyuu/senri_AgaChuu.jpg");
+  background-position: center center;
 }
 div[蒼井翔太] {
-  background-image: url("https://www.shouta-aoi.jp/img/banner/pc/6641d55722e40.jpg");
-  background-position: center top;
+  /* background-image: url("https://www.shouta-aoi.jp/img/banner/pc/6641d55722e40.jpg"); */
+  background-image: url("/senrimana/assets/images/seiyuu/senri_ShoutaAoi.jpg");
+  background-position: center center;
 }
 
 img[showtaSenri] {

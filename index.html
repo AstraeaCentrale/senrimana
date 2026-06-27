@@ -36,7 +36,7 @@
         // inPageStart() args here
         jstClock();
         broadcastLineup(2026);
-        isLineupActive(0);
+        isLineupActive(1);
         dailyKaiser(2025);
       }
     </script>
@@ -77,10 +77,11 @@
             to the rest of the world.
           </p>
           <p><b>may mama Kaiser bless you uwu🖤💜</b></p>
-          <div socials>
-            <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@SenriMana')"></span>
-            <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/GourmetDayLife')"></span>
-            <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:manasenri@outlook.it')"></span>
+          <div class="senriSocials">
+            <i class="bi bi-youtube" title="YouTube" onclick="{ window.open('https://youtube.com/@SenriMana'); }"></i>
+            <i class="bi bi-twitter-x" title="X" onclick="{ window.open('https://x.com/GourmetDayLife'); }"></i>
+            <i class="bi bi-envelope-at-fill" title="email" onclick="{ window.open('mailto:manasenri@outlook.it', '_self'); }"></i>
+            <i class="bi bi-person-circle" style="margin-right: 0 !important;" title="vTubie" onclick="{ window.open('https://vtubie.com/senri-mana'); }"></i>
           </div>
         </div>
       </div>
@@ -98,7 +99,7 @@
             you may be able to see both the benefactors of the Senri on Day 3 of Cosplay
             Mania 2025 -- at SMX Convention Center, Manila!!
           </b></p>
-          <button senri onclick="window.open('https://sites.google.com/cosplay.ph/cm2025/tickets')" style="margin: unset;">buy tickets</button>
+          <button senri onclick="{ window.open('https://sites.google.com/cosplay.ph/cm2025/tickets'); }" style="margin: unset;">buy tickets</button>
         </div>
       </div>
     </div> -->
@@ -114,7 +115,7 @@
             in the newer generations.
           </p>
           <p>how would she be able to restore her memories?</p>
-          <button senri onclick="window.open('https://bit.ly/SenriManaStory')" style="margin: unset;">read the story</button>
+          <button senri onclick="{ window.open('https://bit.ly/SenriManaStory'); }" style="margin: unset;">read the story</button>
         </div>
       </div>
     </div>
@@ -125,8 +126,8 @@
         <div scrollInstruct class="wide"><span instructSym class="material-symbols-outlined">arrow_back</span><span instructText>&emsp;scroll sideways to see the rest of the lineup&emsp;</span><span instructSym class="material-symbols-outlined">arrow_forward</span></div>
         <div scrollInstruct class="min"><span instructSym class="material-symbols-outlined">arrow_back</span><span instructText>&ensp;scroll&ensp;</span><span instructSym class="material-symbols-outlined">arrow_forward</span></div>
         <div btns id="btnSelSpecial">
-          <!-- <span class="material-symbols-outlined" title="check out the lineup on YouTube" onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G')">video_library</span> -->
-          <span class="material-symbols-outlined" title="view this year's event schedule" onclick="showSchedule(`${calDate.getFullYear()}`)">calendar_month</span>
+          <!-- <span class="material-symbols-outlined" title="check out the lineup on YouTube" onclick="{ window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G'); }">video_library</span> -->
+          <span class="material-symbols-outlined" title="view this year's event schedule" onclick="{ showSchedule(`${calDate.getFullYear()}`); }">calendar_month</span>
         </div>
       </div>
       <div id="vodList" class="eventFeed"> <!-- 2026 broadcast lineup -->
@@ -143,31 +144,31 @@
         <span>previous lineups🖤💜</span>
       </div>
       <div class="eventFeed pastLineups"> <!-- previous lineups -->
-        <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a9Wd24XHm8R8lGDwu0dRFIz')"> <!-- playlist -->
+        <div onclick="{ window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a9Wd24XHm8R8lGDwu0dRFIz'); }"> <!-- playlist -->
           <img src="/senrimana/assets/images/yearly_pla/2022.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2022 broadcast lineup🖤💜</span>
           </div>
         </div>
-        <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a_q32PuKPzw0O-ye_YOcnz1')"> <!-- playlist -->
+        <div onclick="{ window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a_q32PuKPzw0O-ye_YOcnz1'); }"> <!-- playlist -->
           <img src="/senrimana/assets/images/yearly_pla/2023.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2023 broadcast lineup🖤💜</span>
           </div>
         </div>
-        <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a8seEk3SmEg7CJLWbXNM6m_')"> <!-- playlist -->
+        <div onclick="{ window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a8seEk3SmEg7CJLWbXNM6m_'); }"> <!-- playlist -->
           <img src="/senrimana/assets/images/yearly_pla/2024.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2024 broadcast lineup🖤💜</span>
           </div>
         </div>
-        <div onclick="window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G')"> <!-- playlist -->
+        <div onclick="{ window.open('https://youtube.com/playlist?list=PL3F_PWEsl2a-IUEUqCfSpswBfbE8iiu5G'); }"> <!-- playlist -->
           <img src="/senrimana/assets/images/yearly_pla/2025.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2025 broadcast lineup🖤💜</span>
           </div>
         </div>
-        <!-- <div onclick="window.open('https://youtube.com/playlist?list=PLWf35AmRUe38')"> <!- playlist ->
+        <!-- <div onclick="{ window.open('https://youtube.com/playlist?list=PLWf35AmRUe38'); }"> <!- playlist ->
           <img src="/senrimana/assets/images/yearly_pla/2026.png" alt="" width="250px">
           <div>
             <span type="eventTitle">2026 broadcast lineup🖤💜</span>
@@ -179,7 +180,7 @@
     <div dailyKaiser>
       <div flexSheet>
         <span>Daily Kaiser 2025🖤💜</span>
-        <span class="material-symbols-outlined" title="check out the previous yearly Daily Kaiser collection" onclick="window.open('dailykaiser')">photo_library</span>
+        <span class="material-symbols-outlined" title="check out the previous yearly Daily Kaiser collection" onclick="{ window.open('dailykaiser'); }">photo_library</span>
       </div>
       <div id="dailyKaiser" class="eventFeed">
         <!-- contents in /senrimana/assets/xml/{year}_Kaiser.xml -->
@@ -193,28 +194,31 @@
           <div>
             <h2>learn more about thebelovedmoon</h2>
             <p>
-              thebelovedmoon -- aka Aga-chuu (阿賀忠) -- started her journey as a VTuber on
-              5 Jul 2020, which is notably during the 2022 Senri Mana event. she has
+              thebelovedmoon -- formally known as Aga-chuu (阿賀忠) -- started her journey
+              as a VTuber on 5 Jul 2020, Day 1 of the 2022 Senri Mana event. she has
               represented as the character throughout July before she became well-known as
               Mother Agatha (from Horror Shop Games' Mother) before becoming Aga-chuu --
-              which was coined by a fellow VTuber named Hina Oujo.
+              which was coined by Hina Oujo, the Third Maria🌸.
             </p>
             <p>
-              she is the one behind many projects, most notably GourmetDayLife (that gave
-              rise to Astraea Centrale), ReactSquad, and successful Collectives such as
-              #MamaNyoSquad and VTresMarias -- to which she represented as the First Maria🍃
-              on the latter.
+              she is the one behind many projects and collectives, including VTresMarias --
+              her cornerstone venture to which she performs her duties as the First Maria🍃.
+              she is also the benefactor of her one-woman collective vtNet.
             </p>
-            <div socials>
-              <span class="fa-solid fa-spa" title="V三人のマリア" onclick="window.open('https://vtresmarias.github.io')"></span>
-              <span class="fa-solid fa-globe" title="website" onclick="window.open('https://thebelovedmoon.github.io')"></span>
-              <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/thebelovedmoon')"></span>
-              <span class="fa-brands fa-instagram" title="Instagram" onclick="window.open('https://instagram.com/themoon_follow')"></span>
-              <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@thebelovedmoon')"></span>
-              <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/thebelovedmoon')"></span>
-              <span class="fa-brands fa-tiktok" title="TikTok" onclick="window.open('https://tiktok.com/@themoon_follow')"></span>
-              <span class="fa-brands fa-github" title="GitHub" onclick="window.open('https://github.com/thebelovedmoon')"></span>
-              <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:jelsa14018@gmail.com')"></span>
+            <div class="senriSocials">
+              <i class="bi bi-flower1" title="V三人のマリア" onclick="{ window.open('/'); }"></i>
+              <i class="bi bi-globe" title="website" onclick="{ window.open('https://thebelovedmoon.github.io'); }"></i>
+              <i class="bi bi-twitter-x" title="X" onclick="{ window.open('https://x.com/thebelovedmoon'); }"></i>
+              <i class="bi bi-facebook" title="facebook" onclick="{ window.open('https://web.facebook.com/thebelovedmoon'); }"></i>
+              <i class="bi bi-instagram" title="instagram" onclick="{ window.open('https://instagram.com/themoon_follow'); }"></i>
+              <i class="bi bi-threads" title="threads" onclick="{ window.open('https://threads.com/themoon_follow'); }"></i>
+              <i class="bi bi-youtube" title="youtube" onclick="{ window.open('https://youtube.com/@thebelovedmoon'); }"></i>
+              <i class="bi bi-twitch" title="twitch" onclick="{ window.open('https://twitch.tv/thebelovedmoon'); }"></i>
+              <i class="bi bi-tiktok" title="tiktok" onclick="{ window.open('https://tiktok.com/@themoon_follow'); }"></i>
+              <i class="bi bi-reddit" title="reddit" onclick="{ window.open('https://reddit.com/user/thebelovedmoon'); }"></i>
+              <i class="bi bi-soundwave" title="soundcloud" onclick="{ window.open('https://soundcloud.com/thebelovedmoon'); }"></i>
+              <i class="bi bi-github" title="github" onclick="{ window.open('https://github.com/thebelovedmoon'); }"></i>
+              <i class="bi bi-envelope-at-fill" style="margin-right: 0 !important;" title="email" onclick="{ window.open('mailto:jelsa14018@gmail.com', '_self'); }"></i>
             </div>
           </div>
         </div>
@@ -230,24 +234,24 @@
               from his theatrical debut as Hanajima Saki from Fruits Basket in 2009.
             </p>
             <p>
-              he was later famous in the anime and JRPG community with his voice acting
-              skills that can match any female seiyuus of his time. he is most notable for
-              his role as Senri Mana (aka Kaiser Insight) from Princess Connect! Re:Dive, in
+              he later became famous in the anime and JRPG community with his voice acting
+              skills that can match any female seiyuus of his time, most notably for his
+              role as Senri Mana (aka Kaiser Insight) from Princess Connect! Re:Dive -- in
               which he was featured in some of its live programs many times.
             </p>
-            <div socials>
-              <span class="fa-solid fa-globe" title="website" onclick="window.open('https://shouta-aoi.jp')"></span>
-              <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/shouta0811aoi')"></span>
-              <span class="fa-brands fa-instagram" title="Instagram" onclick="window.open('https://instagram.com/aoishoutastaff')"></span>
-              <span class="fa-brands fa-tiktok" title="TikTok" onclick="window.open('https://tiktok.com/@aoishouta_official')"></span>
-              <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@aoishoutaKING')"></span>
+            <div class="senriSocials">
+              <i class="bi bi-globe" title="website" onclick="{ window.open('https://shouta-aoi.jp'); }"></i>
+              <i class="bi bi-twitter-x" title="X" onclick="{ window.open('https://x.com/shouta0811aoi'); }"></i>
+              <i class="bi bi-instagram" title="instagram" onclick="{ window.open('https://instagram.com/aoishoutastaff'); }"></i>
+              <i class="bi bi-youtube" title="youtube" onclick="{ window.open('https://youtube.com/@aoishoutaKING'); }"></i>
+              <i class="bi bi-tiktok" style="margin-right: 0 !important;" title="tiktok" onclick="{ window.open('https://tiktok.com/@aoishouta_official'); }"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div senri>
-      <button senri onclick="window.open('https://princess-connect.fandom.com/wiki/Kaiser_Insight')">learn more about her on PriConne Fandom</button>
+      <button senri onclick="{ window.open('https://princess-connect.fandom.com/wiki/Kaiser_Insight'); }">learn more about her on PriConne Fandom</button>
       <br>
       <img senri src="/senrimana/assets/images/senri_ibisUpscale.png" alt="Senri Mana (ibisPaint upscaled)" width="500px">
     </div>
