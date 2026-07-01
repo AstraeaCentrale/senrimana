@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <KAISER>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/89774619</URL>
     <IMGID>Fz9ROUVacAECd3C</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -37,7 +37,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/97324840</URL>
     <IMGID>F0SRj97aAAMKZQR</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -46,7 +46,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/109517098</URL>
     <IMGID>F0Xh1J3agAEJ5sd</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -55,7 +55,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/98290285</URL>
     <IMGID>F0fdhN9agAAPqtK</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -64,7 +64,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/97385702</URL>
     <IMGID>F0fd2X0aIAM8RhG</IMGID>
     <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
@@ -73,7 +73,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/83339423</URL>
     <IMGID>F0koaMJaMAAh24w</IMGID>
     <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
@@ -82,7 +82,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/101337041</URL>
     <IMGID>F0w7vC8agAA8kdx</IMGID>
     <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
@@ -91,7 +91,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/104317321</URL>
     <IMGID>F0w8ATfaMAY-2PH</IMGID>
     <STYLE>-o-object-position: center right; object-position: center right;</STYLE> <!-- use "null" for no css styling -->
@@ -100,7 +100,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/99490380</URL>
     <IMGID>F02TXVGaUAA4VaK</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -109,7 +109,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/97394763</URL>
     <IMGID>F044CKNaYAEzFX3</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -118,7 +118,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/109763846</URL>
     <IMGID>F1C20aWaQAU8w36</IMGID>
     <STYLE>-o-object-position: center 42.5%; object-position: center 42.5%;</STYLE> <!-- use "null" for no css styling -->
@@ -127,7 +127,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/97234119</URL>
     <IMGID>F1C3z5KaQAEZvo8</IMGID>
     <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
@@ -136,7 +136,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/99413487</URL>
     <IMGID>F1JglijaQAIfxvr</IMGID>
     <STYLE>-o-object-position: center 20%; object-position: center 20%;</STYLE> <!-- use "null" for no css styling -->
@@ -145,7 +145,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/105102404</URL>
     <IMGID>F1TEN9TaEAIPPAV</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -154,7 +154,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/99431980</URL>
     <IMGID>F1TEyFGaQAAREGa</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -163,7 +163,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/83113409</URL>
     <IMGID>F1YipqMaMAIv-72</IMGID>
     <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
@@ -172,7 +172,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/94918062</URL>
     <IMGID>F1jubkeaIAEx1r7</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -181,7 +181,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/82526640</URL>
     <IMGID>F1jwRvxaEAAWt9E</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -190,7 +190,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/73308319</URL>
     <IMGID>F1nzsLvagAATpP-</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -199,7 +199,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/97968727</URL>
     <IMGID>F1uCJ_6agAEIQTn</IMGID>
     <STYLE>-o-object-position: center left; object-position: center left;</STYLE> <!-- use "null" for no css styling -->
@@ -208,7 +208,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/109695466</URL>
     <IMGID>F1y_FCUaQAEolCY</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
@@ -217,7 +217,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/100005572</URL>
     <IMGID>F18cxy_acAEvXqX</IMGID>
     <STYLE>-o-object-position: center right; object-position: center right;</STYLE> <!-- use "null" for no css styling -->
@@ -226,7 +226,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/100254678</URL>
     <IMGID>F18c9BtaAAAq8i_</IMGID>
     <STYLE>-o-object-position: center right; object-position: center right;</STYLE> <!-- use "null" for no css styling -->
@@ -235,7 +235,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/105936018</URL>
     <IMGID>F2CIYSvagAANY-I</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
@@ -244,7 +244,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/79190795</URL>
     <IMGID>F2Fs8kpasAAinpK</IMGID>
     <STYLE>-o-object-position: center right; object-position: center right;</STYLE> <!-- use "null" for no css styling -->
@@ -253,7 +253,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/110370450</URL>
     <IMGID>F2RGeuXaMAASBVI</IMGID>
     <STYLE>-o-object-position: center 65%; object-position: center 65%;</STYLE> <!-- use "null" for no css styling -->
@@ -262,7 +262,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/72729506</URL>
     <IMGID>F2RHCDMa4AAuy_r</IMGID>
     <STYLE>-o-object-position: center 10%; object-position: center 10%;</STYLE> <!-- use "null" for no css styling -->
@@ -271,7 +271,7 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://x.com/i/status/1685859226453962752</URL>
     <IMGID>F2VdMr_bUAApxOj</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->

@@ -64,7 +64,7 @@ function dailyKaiser(year) {
       m = xmlDoc.getElementsByTagName("DAILY");
     for (let k = 0; k < m.length; k++) {
       out += `
-        <div eventDays onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
+        <div eventDays style="display: ${m[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
             <span style="font-size: .875rem; margin-bottom: 0.25rem;">DAY ${k + 1}</span>
@@ -162,7 +162,7 @@ function showCollection(year) {
         m = xmlDoc.getElementsByTagName("DAILY");
       for (let k = 0; k < m.length; k++) {
         out += `
-          <div onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
+          <div style="display: ${m[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('${m[k].getElementsByTagName("URL")[0].childNodes[0].nodeValue}')">
             <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
             <div>
               <span style="font-size: .875rem;">DAY ${k + 1}</span>
