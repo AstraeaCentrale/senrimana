@@ -37,17 +37,17 @@
     <URL>https://www.pixiv.net/en/artworks/129731320</URL>
     <IMGID>iT6DjVEXnAW0usDZt8WD9z8GUW8qzWD5aLV_RP3eL0-uFoXtQaDB4QQLjwimmp3rjTZgZpnJbM_HPcI</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY>
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1939782968165507165</URL>
-    <IMGID>AlDqfp3xpX5sfIrwunmHdakMG_hg0nmM4NxS-2mpNkZFwD-Cif2rsm9GRhrlVaukIyaeFRRow_7x</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>screencap</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
-    <AUTHOR>Hikayuchannel</AUTHOR>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://x.com/i/status/2072192235328684363</URL>
+    <IMGID>l_8R0S_8cKa8DkoltwQlFIRdCCP1PqYFsC1hwW-RS30qNIH3DrAxqyu8Ad1Y9RftyyGc6p2lIKlU8mM</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT>
+    <AUTHOR>urb0</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY>
@@ -55,7 +55,7 @@
     <URL>https://x.com/i/status/1940055582452719781</URL>
     <IMGID>uvaHTO_yZKkYzp9K7LvJUYyDvWqr2_JNSy9iVUE_XOMk4KhwFAX-UPv_YkJH5zuGnFEx9PZUMz1rmMM</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>sora428632</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -64,7 +64,7 @@
     <URL>https://x.com/i/status/1939837205406785865</URL>
     <IMGID>L_tSlKv2qTiXC7uro8jOeG6kKUoLjGwMUQ9flw3oK86wcVqgsOgLrd33_ypfryVSxE2755jeVUqp</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>kuroha4416</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -73,7 +73,7 @@
     <URL>https://x.com/i/status/1940510734095679866</URL>
     <IMGID>oKUmkuGBqhND4GcAzEFhIqPiXrzsONIcWOetB6VhIPhQn1UB6ERYvQCU_7mfeaQOvbK6q7QPEJy9NQ</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>SAYO_61</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -82,7 +82,7 @@
     <URL>https://x.com/i/status/1820834715961643344</URL>
     <IMGID>5Zj_O-vBDXwom3o1dAzW-7zMMgVjdbw14DuUAuxETOo50470nhevpfb7CvTeIuBwdwZdcJg_-41a</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>Manasenrik1sser</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -91,7 +91,7 @@
     <URL>https://x.com/i/status/1888881135272575319</URL>
     <IMGID>qAJH4tSvnM-oCwDpjVjCTqKJOpLuRvJ87HJO5dTFaV7ZxspvtPrW91gWtq3rbOMPkHIOl2adwMoXJw</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>kaede_agtm</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -100,7 +100,7 @@
     <URL>https://x.com/i/status/1893303859302256758</URL>
     <IMGID>bqTvnCw9QLrCDSCLDXekTmcJ-FckRwiyVRBgl4P7dKl7g-tGRs9meezW0qNfO78uNfIOI-oHqJFdJw</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>isumi_saga</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -109,7 +109,7 @@
     <URL>https://x.com/i/status/1849119461468680452</URL>
     <IMGID>Uy2TfLXi-j28HFwMsCpGoDvQ3aaBmxN8uHeGo6DlKNK9H-Ns0pZboizTukdJ0HeVBxTrBik8u1mw_qc</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>NIKEOB1</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -118,7 +118,7 @@
     <URL>https://x.com/i/status/1226567926565654528</URL>
     <IMGID>6w-jPjnlAXyMX0X8cDfHWdVGKyE8ajkqJqW0dZwpJx4s6lTfAOAAG0hSBxUYjSqvLxuoiUR2L2XH</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>e0ka93ka7</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -127,7 +127,7 @@
     <URL>https://x.com/i/status/1887306718113374259</URL>
     <IMGID>htXvH_eh6QwEoNhofRdR8HyTyyxeM7zxvS_Db_MXn3ksY-HMaSQccaU7CFbRE51tms_u6WBDOna6muI</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>umeco_bucha</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -136,7 +136,7 @@
     <URL>https://x.com/i/status/1939251736436150535</URL>
     <IMGID>bCSjjr_ZxWS7NdWD8k0aojERsMGjzqVTwwjHsNHl0ZG-FQsKrEEIU3JDpEyy-di_JGNKqCbHUx7geQ</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>photoshoot</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>photoshoot</FORMAT>
     <AUTHOR>SAYO_61</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -145,7 +145,7 @@
     <URL>https://www.pixiv.net/en/artworks/130638804</URL>
     <IMGID>Hh8kgECZwdx8rC1Jqk5aEjoYTn9iTHflk_o2GEmNO67rbYqGCaDr-YOyeB7EhyWyJAuTKqM7COliRQ</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -154,7 +154,7 @@
     <URL>https://www.pixiv.net/en/artworks/78514659</URL>
     <IMGID>6cwjCKPzJMkwSM-N6MWTHWuaxmK0SxuVTT_ajE49J5X3tnQa2SCbsuMn3UF3-sW3SZ1mIlqNxlngE94</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>黒工房</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -163,7 +163,7 @@
     <URL>https://www.pixiv.net/en/artworks/129029368</URL>
     <IMGID>iYRmvzz3ILqHyDOxNitncBlToMqkSnq8357AhoX-bCWk63aoxCaLsGt2xIW8TUsfgyiRLHrUgP0a2g</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -172,7 +172,7 @@
     <URL>https://www.pixiv.net/en/artworks/106450899</URL>
     <IMGID>SEKdyn0GKfhcOoTn3bDB6U09PK1qsGTakBvwFqZbmfzD85PPA1D9oj91-8WBJdMeO1IYl6FvbNI</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>りむ＠冬コミ１日めQ34a</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -181,7 +181,7 @@
     <URL>https://www.pixiv.net/en/artworks/113571487</URL>
     <IMGID>rRO2UUjI4cR8aJ3Uuwq6nC7JzkN7w_ortLrldJSw7PIxhwbq9XcXi1yceafrWRu6a4wBiE1xzrzuLdM</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>Nobi</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -190,7 +190,7 @@
     <URL>https://www.pixiv.net/en/artworks/121825239</URL>
     <IMGID>6blOhhJpRB1Zkb2Y9i2MXEIPAPDvF6UCFlx-Y1mdnrTb26zOcoX9PyONtn9utwQhIk3wW8gB9ymaRg</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>極上！乳首ストーカーパラダイス</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -199,7 +199,7 @@
     <URL>https://x.com/i/status/1928725152373604627</URL>
     <IMGID>iexKDJkWHtIaZtXFUN8y3aynhSFeghop1DQS0yZ1c5Pj_muKaTGXVGSqco-BunNxrbvT6PMvRyik0A</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>rhMRp9yNumUYQ6K</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -208,7 +208,7 @@
     <URL>https://www.pixiv.net/en/artworks/115877735</URL>
     <IMGID>Pm47waJnRp3IfIlwmF6gDONMuiBQSNLfmbpB9H59u4_RiCCxGqt36ECOgCe95q9jPdqP6oNIjdot3w</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>Rofu</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -217,7 +217,7 @@
     <URL>https://x.com/i/status/1939846295222706565</URL>
     <IMGID>8iZUXO_KWc3YdIGEdk541aT9Fp7_0IO73THi-G9MZ8FRHleyWeiYM2vQ9teKZJUEA9UKAe_cKtfU</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>omoi8mabuta1_1</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -226,7 +226,7 @@
     <URL>https://x.com/i/status/1940052835296846266</URL>
     <IMGID>6WZ9hwGzQynmgpM0x2tOv9hoQIb5YwkKdiCYRfkq-U3DEeVIbSm_GHpBeLgvFJ1mFzRxWZLaL56gUw</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -235,7 +235,7 @@
     <URL>https://x.com/i/status/1935626140380750091</URL>
     <IMGID>u_rIor35Ec_SXl5m-QEW2CnjmQyJmHU2VvYu19SzJCq_AldZ1683dmUngO2y-HDq4ilM18Iwf6OwAA</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>mee_prcn</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -244,7 +244,7 @@
     <URL>https://x.com/i/status/1947940601191600487</URL>
     <IMGID>NOwAgKrsm5U7YFYM1cJz85kE4LEg4h4wC0HQgUs_fNgjATuVYfqc4eMVXHPmd2EqUU4rrrM7LX-u</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>urb0</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -253,7 +253,7 @@
     <URL>https://x.com/i/status/1942348502874697990</URL>
     <IMGID>Vd4SFKDzGSHzsDFucSqDb-fs2E_i-NO37Iy2foES4ZvnLzvkC_3EadQRkGqx7tiB6_F2J6Sg3BPwzQ</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -262,7 +262,7 @@
     <URL>https://www.pixiv.net/en/artworks/131832726</URL>
     <IMGID>CKxGUPtkpZvADik1sKQ63EOswSZYJPUjPwizLN4JeMuU6MpCCcSXqB4IDcdDoV2X4-cV_IpkdZk-Wi0</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>PPPR</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -271,7 +271,7 @@
     <URL>https://www.pixiv.net/en/artworks/130209061</URL>
     <IMGID>X8ynnAGd2CEkzojlJ1GwsK-Q--1wj26NBKT6CrvbELUbtarvTEmVr1jOqxec3cO6G_4epVLW0TOg0Vs</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>きらるが◎リクエスト受付中</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -280,7 +280,7 @@
     <URL>https://www.pixiv.net/en/artworks/78945339</URL>
     <IMGID>JlrVArSXnmqACfhpLPwVFCYTZJVyoLnznKnK3jQCQuvEY79e7Fww3hC32mL6yFFPCfgrQnzOaL_dpds</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>VanillaFox2035</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -289,7 +289,7 @@
     <URL>https://www.pixiv.net/en/artworks/78512106</URL>
     <IMGID>8_ovyxFVUSVXzbTAdJLLDAaUaPksYwZunZ2rosfAe0DpSV9I0O9MzNzvg7QCUSdl-dxYHESHs1j6WrE</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>대해원</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
@@ -298,7 +298,7 @@
     <URL>https://x.com/i/status/1950544654551933158</URL>
     <IMGID>KLaMbhw-i4MG96oXvgqMTnXsf3mlU5mlOyqNYjlFENgxO4uK3K1CGdQzW1s-xXFZ5mzdi_7Nlgunig</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>null</FORMAT>
     <AUTHOR>mee_prcn</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
@@ -307,7 +307,7 @@
     <URL>https://hub.vroid.com/en/characters/919333168471631927/models/6970678932260272493</URL>
     <IMGID>W_8J9EUvkdzKAApfjRjDGmX_brdeP4JWk_D5_7PZHtrwWB2BSIjgPtPmkkYmWrui4HNFrJh14Cmslw</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>vroid</FORMAT> <!-- refer to line 214 of _main.css for classifications, use "null" for default ("illust.") -->
+    <FORMAT>vroid</FORMAT>
     <AUTHOR>千里真那Ch.</AUTHOR>
     <PLATFORMID>8</PLATFORMID>
   </DAILY>
