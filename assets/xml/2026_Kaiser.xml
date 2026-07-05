@@ -69,7 +69,7 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 5 -->
-    <VISIBILITY>none</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://x.com/i/status/2072163425942397356</URL>
     <IMGID>2Sjsezm-e_O8jllPbPY0uoqUXH9LtjhCDWTcnYumLRnUTvhkULbSkJShS9HkpZygitO1POdUqhMh-A</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
