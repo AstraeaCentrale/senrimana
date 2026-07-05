@@ -32,7 +32,7 @@
 -->
 
 <KAISER>
-  <DAILY>
+  <DAILY> <!-- DAY 1 -->
     <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/129731320</URL>
     <IMGID>iT6DjVEXnAW0usDZt8WD9z8GUW8qzWD5aLV_RP3eL0-uFoXtQaDB4QQLjwimmp3rjTZgZpnJbM_HPcI</IMGID>
@@ -41,7 +41,7 @@
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 2 -->
     <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://x.com/i/status/2072192235328684363</URL>
     <IMGID>l_8R0S_8cKa8DkoltwQlFIRdCCP1PqYFsC1hwW-RS30qNIH3DrAxqyu8Ad1Y9RftyyGc6p2lIKlU8mM</IMGID>
@@ -50,7 +50,7 @@
     <AUTHOR>urb03</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 3 -->
     <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://x.com/i/status/2072337196397543601</URL>
     <IMGID>ZZBia-su_lM80b3xH-uxfIdezLefyvzTa4d0VQHawJ2qvPwqs1mKB5Zhz3NFp-8xfRqQf43O4LYXmxw</IMGID>
@@ -59,7 +59,7 @@
     <AUTHOR>KasugaLukasu</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 4 -->
     <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://x.com/i/status/1887079404700131703</URL>
     <IMGID>avMmfyDdXnjhkcBMDjfjHHZOZR61DpWjxuw-LDD4m-mg7Szy345_2qW_vfGG9Wp0M3UePxFqNVJ24Q</IMGID>
@@ -68,16 +68,16 @@
     <AUTHOR>gumaguma228</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 5 -->
     <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1940510734095679866</URL>
-    <IMGID>oKUmkuGBqhND4GcAzEFhIqPiXrzsONIcWOetB6VhIPhQn1UB6ERYvQCU_7mfeaQOvbK6q7QPEJy9NQ</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <URL>https://x.com/i/status/2072163425942397356</URL>
+    <IMGID>2Sjsezm-e_O8jllPbPY0uoqUXH9LtjhCDWTcnYumLRnUTvhkULbSkJShS9HkpZygitO1POdUqhMh-A</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>SAYO_61</AUTHOR>
+    <AUTHOR>teru_rkgk</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 6 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1820834715961643344</URL>
     <IMGID>5Zj_O-vBDXwom3o1dAzW-7zMMgVjdbw14DuUAuxETOo50470nhevpfb7CvTeIuBwdwZdcJg_-41a</IMGID>
@@ -86,7 +86,7 @@
     <AUTHOR>Manasenrik1sser</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 7 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1888881135272575319</URL>
     <IMGID>qAJH4tSvnM-oCwDpjVjCTqKJOpLuRvJ87HJO5dTFaV7ZxspvtPrW91gWtq3rbOMPkHIOl2adwMoXJw</IMGID>
@@ -95,7 +95,7 @@
     <AUTHOR>kaede_agtm</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 8 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1893303859302256758</URL>
     <IMGID>bqTvnCw9QLrCDSCLDXekTmcJ-FckRwiyVRBgl4P7dKl7g-tGRs9meezW0qNfO78uNfIOI-oHqJFdJw</IMGID>
@@ -104,7 +104,7 @@
     <AUTHOR>isumi_saga</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 9 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1849119461468680452</URL>
     <IMGID>Uy2TfLXi-j28HFwMsCpGoDvQ3aaBmxN8uHeGo6DlKNK9H-Ns0pZboizTukdJ0HeVBxTrBik8u1mw_qc</IMGID>
@@ -113,7 +113,7 @@
     <AUTHOR>NIKEOB1</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 10 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1226567926565654528</URL>
     <IMGID>6w-jPjnlAXyMX0X8cDfHWdVGKyE8ajkqJqW0dZwpJx4s6lTfAOAAG0hSBxUYjSqvLxuoiUR2L2XH</IMGID>
@@ -122,7 +122,7 @@
     <AUTHOR>e0ka93ka7</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 11 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1887306718113374259</URL>
     <IMGID>htXvH_eh6QwEoNhofRdR8HyTyyxeM7zxvS_Db_MXn3ksY-HMaSQccaU7CFbRE51tms_u6WBDOna6muI</IMGID>
@@ -131,7 +131,7 @@
     <AUTHOR>umeco_bucha</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 12 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1939251736436150535</URL>
     <IMGID>bCSjjr_ZxWS7NdWD8k0aojERsMGjzqVTwwjHsNHl0ZG-FQsKrEEIU3JDpEyy-di_JGNKqCbHUx7geQ</IMGID>
@@ -140,7 +140,7 @@
     <AUTHOR>SAYO_61</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 13 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/130638804</URL>
     <IMGID>Hh8kgECZwdx8rC1Jqk5aEjoYTn9iTHflk_o2GEmNO67rbYqGCaDr-YOyeB7EhyWyJAuTKqM7COliRQ</IMGID>
@@ -149,7 +149,7 @@
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 14 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/78514659</URL>
     <IMGID>6cwjCKPzJMkwSM-N6MWTHWuaxmK0SxuVTT_ajE49J5X3tnQa2SCbsuMn3UF3-sW3SZ1mIlqNxlngE94</IMGID>
@@ -158,7 +158,7 @@
     <AUTHOR>黒工房</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 15 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/129029368</URL>
     <IMGID>iYRmvzz3ILqHyDOxNitncBlToMqkSnq8357AhoX-bCWk63aoxCaLsGt2xIW8TUsfgyiRLHrUgP0a2g</IMGID>
@@ -167,7 +167,7 @@
     <AUTHOR>mee</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 16 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/106450899</URL>
     <IMGID>SEKdyn0GKfhcOoTn3bDB6U09PK1qsGTakBvwFqZbmfzD85PPA1D9oj91-8WBJdMeO1IYl6FvbNI</IMGID>
@@ -176,7 +176,7 @@
     <AUTHOR>りむ＠冬コミ１日めQ34a</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 17 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/113571487</URL>
     <IMGID>rRO2UUjI4cR8aJ3Uuwq6nC7JzkN7w_ortLrldJSw7PIxhwbq9XcXi1yceafrWRu6a4wBiE1xzrzuLdM</IMGID>
@@ -185,7 +185,7 @@
     <AUTHOR>Nobi</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 18 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/121825239</URL>
     <IMGID>6blOhhJpRB1Zkb2Y9i2MXEIPAPDvF6UCFlx-Y1mdnrTb26zOcoX9PyONtn9utwQhIk3wW8gB9ymaRg</IMGID>
@@ -194,7 +194,7 @@
     <AUTHOR>極上！乳首ストーカーパラダイス</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 19 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1928725152373604627</URL>
     <IMGID>iexKDJkWHtIaZtXFUN8y3aynhSFeghop1DQS0yZ1c5Pj_muKaTGXVGSqco-BunNxrbvT6PMvRyik0A</IMGID>
@@ -203,7 +203,7 @@
     <AUTHOR>rhMRp9yNumUYQ6K</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 20 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/115877735</URL>
     <IMGID>Pm47waJnRp3IfIlwmF6gDONMuiBQSNLfmbpB9H59u4_RiCCxGqt36ECOgCe95q9jPdqP6oNIjdot3w</IMGID>
@@ -212,7 +212,7 @@
     <AUTHOR>Rofu</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 21 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1939846295222706565</URL>
     <IMGID>8iZUXO_KWc3YdIGEdk541aT9Fp7_0IO73THi-G9MZ8FRHleyWeiYM2vQ9teKZJUEA9UKAe_cKtfU</IMGID>
@@ -221,7 +221,7 @@
     <AUTHOR>omoi8mabuta1_1</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 22 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1940052835296846266</URL>
     <IMGID>6WZ9hwGzQynmgpM0x2tOv9hoQIb5YwkKdiCYRfkq-U3DEeVIbSm_GHpBeLgvFJ1mFzRxWZLaL56gUw</IMGID>
@@ -230,7 +230,7 @@
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 23 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1935626140380750091</URL>
     <IMGID>u_rIor35Ec_SXl5m-QEW2CnjmQyJmHU2VvYu19SzJCq_AldZ1683dmUngO2y-HDq4ilM18Iwf6OwAA</IMGID>
@@ -239,7 +239,7 @@
     <AUTHOR>mee_prcn</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 24 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1947940601191600487</URL>
     <IMGID>NOwAgKrsm5U7YFYM1cJz85kE4LEg4h4wC0HQgUs_fNgjATuVYfqc4eMVXHPmd2EqUU4rrrM7LX-u</IMGID>
@@ -248,7 +248,7 @@
     <AUTHOR>urb0</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 25 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1942348502874697990</URL>
     <IMGID>Vd4SFKDzGSHzsDFucSqDb-fs2E_i-NO37Iy2foES4ZvnLzvkC_3EadQRkGqx7tiB6_F2J6Sg3BPwzQ</IMGID>
@@ -257,7 +257,7 @@
     <AUTHOR>nekoclown</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 26 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/131832726</URL>
     <IMGID>CKxGUPtkpZvADik1sKQ63EOswSZYJPUjPwizLN4JeMuU6MpCCcSXqB4IDcdDoV2X4-cV_IpkdZk-Wi0</IMGID>
@@ -266,7 +266,7 @@
     <AUTHOR>PPPR</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 27 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/130209061</URL>
     <IMGID>X8ynnAGd2CEkzojlJ1GwsK-Q--1wj26NBKT6CrvbELUbtarvTEmVr1jOqxec3cO6G_4epVLW0TOg0Vs</IMGID>
@@ -275,7 +275,7 @@
     <AUTHOR>きらるが◎リクエスト受付中</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 28 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/78945339</URL>
     <IMGID>JlrVArSXnmqACfhpLPwVFCYTZJVyoLnznKnK3jQCQuvEY79e7Fww3hC32mL6yFFPCfgrQnzOaL_dpds</IMGID>
@@ -284,7 +284,7 @@
     <AUTHOR>VanillaFox2035</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 29 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/78512106</URL>
     <IMGID>8_ovyxFVUSVXzbTAdJLLDAaUaPksYwZunZ2rosfAe0DpSV9I0O9MzNzvg7QCUSdl-dxYHESHs1j6WrE</IMGID>
@@ -293,7 +293,7 @@
     <AUTHOR>대해원</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 30 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://x.com/i/status/1950544654551933158</URL>
     <IMGID>KLaMbhw-i4MG96oXvgqMTnXsf3mlU5mlOyqNYjlFENgxO4uK3K1CGdQzW1s-xXFZ5mzdi_7Nlgunig</IMGID>
@@ -302,7 +302,7 @@
     <AUTHOR>mee_prcn</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
-  <DAILY>
+  <DAILY> <!-- DAY 31 -->
     <VISIBILITY>none</VISIBILITY>
     <URL>https://hub.vroid.com/en/characters/919333168471631927/models/6970678932260272493</URL>
     <IMGID>W_8J9EUvkdzKAApfjRjDGmX_brdeP4JWk_D5_7PZHtrwWB2BSIjgPtPmkkYmWrui4HNFrJh14Cmslw</IMGID>
