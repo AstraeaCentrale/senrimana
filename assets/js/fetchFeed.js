@@ -16,13 +16,14 @@ function broadcastLineup(year) {
   function vod(xml) {
     let out = "",
       xmlDoc = xml.responseXML,
-      b = xmlDoc.getElementsByTagName("LIVE");
+      b = xmlDoc.getElementsByTagName("LIVE"),
+      dateeeee = new Date(new Date().getTime() + diffOffs(9));
     for (let k = 0; k < b.length; k++) {
       out += `
         <div lineupSheet style="display: ${b[k].getElementsByTagName("VISIBILITY")[0].childNodes[0].nodeValue};" onclick="window.open('https://youtu.be/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}')"> <!-- event -->
           <img src="https://i.ytimg.com/vi/${b[k].getElementsByTagName("ID")[0].childNodes[0].nodeValue}/hq720.jpg" alt="" width="375px">
           <div>
-            <span type="date" style="margin-bottom: 0.25rem; font-weight: bold;">${k + 1} Jul 2025</span>
+            <span type="date" style="margin-bottom: 0.25rem; font-weight: bold;">${k + 1} Jul ${dateeeee.getFullYear()}</span>
             <span type="eventTitle">${b[k].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue}</span>
             <br>
             <span type="eventText">${b[k].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue}</span>
@@ -31,7 +32,7 @@ function broadcastLineup(year) {
       `;
     }
     document.getElementById("vodList").innerHTML = out;
-    // isOngoing();
+    isOngoing();
   }
   let ajxLoad = new XMLHttpRequest();
   ajxLoad.onreadystatechange = function() {
@@ -44,7 +45,7 @@ function broadcastLineup(year) {
 function isOngoing() {
   let dates = document.querySelectorAll(`span[type="date"]`),
     ongoingDate = new Date(new Date().getTime() + diffOffs(9)),
-    currDate = new RegExp(`\\b${ongoingDate.getDate()} ${month(ongoingDate.getMonth())} ${ongoingDate.getFullYear()}\\b`);
+    currDate = new RegExp(`\\b${ongoingDate.getDate()} Jul ${ongoingDate.getFullYear()}\\b`);
   dates.forEach((date) => {
     // PHASE 1: live is ongoing
     if (currDate.test(date.innerHTML)) { return date.innerHTML = `<span class="flashPrompt" style="color: red; margin: 0;">&#x1F534 ONGOING</span>`; }

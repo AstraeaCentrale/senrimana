@@ -78,31 +78,31 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 6 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1820834715961643344</URL>
-    <IMGID>5Zj_O-vBDXwom3o1dAzW-7zMMgVjdbw14DuUAuxETOo50470nhevpfb7CvTeIuBwdwZdcJg_-41a</IMGID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/146668079</URL>
+    <IMGID>kCTSlIyTw0nujzkuVVAEWcadIry_Ykj_8OEZl3OW5it__9GN0M3IuUGCrzq6Nl5YHwznV5-ulLXbGxs</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>Manasenrik1sser</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>胡子塔夫</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 7 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1888881135272575319</URL>
-    <IMGID>qAJH4tSvnM-oCwDpjVjCTqKJOpLuRvJ87HJO5dTFaV7ZxspvtPrW91gWtq3rbOMPkHIOl2adwMoXJw</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT>
-    <AUTHOR>kaede_agtm</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
-  </DAILY>
-  <DAILY> <!-- DAY 8 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1893303859302256758</URL>
-    <IMGID>bqTvnCw9QLrCDSCLDXekTmcJ-FckRwiyVRBgl4P7dKl7g-tGRs9meezW0qNfO78uNfIOI-oHqJFdJw</IMGID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/135925243</URL>
+    <IMGID>wDsfqZdzxOThrwpXd6HQWbYVEPrruAGI_LVJIhCWMWriae1PS1tbmrBpp4i1qgPQGiThoTrlwYci</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>isumi_saga</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>mee</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY> <!-- DAY 8 -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/138995995</URL>
+    <IMGID>N2q6xUJCT8u3m1rZZKx6-Z87Zq6i23gry9w5kv3-JiGbAECkXsVaSZiG5Y9k8Zgw-Nm32yqavE3g</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT>
+    <AUTHOR>mee</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 9 -->
     <VISIBILITY>none</VISIBILITY>
