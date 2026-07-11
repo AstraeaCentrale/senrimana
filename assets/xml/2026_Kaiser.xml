@@ -105,31 +105,31 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 9 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1849119461468680452</URL>
-    <IMGID>Uy2TfLXi-j28HFwMsCpGoDvQ3aaBmxN8uHeGo6DlKNK9H-Ns0pZboizTukdJ0HeVBxTrBik8u1mw_qc</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/144325694</URL>
+    <IMGID>BehTOtJU7RW2248yvIbo4ID1MTq-e09HiS0zPIoCrF97YC9BzEU0nwGmoc97BdwJHWJ4tQ2lwv3_rA</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>NIKEOB1</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>特級橘</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 10 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1226567926565654528</URL>
-    <IMGID>6w-jPjnlAXyMX0X8cDfHWdVGKyE8ajkqJqW0dZwpJx4s6lTfAOAAG0hSBxUYjSqvLxuoiUR2L2XH</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/142893181</URL>
+    <IMGID>MxDpi9rIFD0hsPwxsewe8sm9h3_oxN2jZvJppHZyvmk0h3MEI-qeGvMUNwZfDy8aAXm9412GqSU7k6c</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>e0ka93ka7</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>くらは</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 11 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1887306718113374259</URL>
-    <IMGID>htXvH_eh6QwEoNhofRdR8HyTyyxeM7zxvS_Db_MXn3ksY-HMaSQccaU7CFbRE51tms_u6WBDOna6muI</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/109750209</URL>
+    <IMGID>ztp8X-e495SpRxkEeaQt9-AKlH7Wbsky3P1H3_hPIlZFDaSTq8K8OeKc4KtSl6uQIVLcwE1ZoGKvQA</IMGID>
+    <STYLE>-o-object-position: right center; object-position: right center;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>umeco_bucha</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>絶洛ちゃん</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 12 -->
     <VISIBILITY>none</VISIBILITY>
