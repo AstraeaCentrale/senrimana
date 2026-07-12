@@ -132,12 +132,12 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 12 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1939251736436150535</URL>
-    <IMGID>bCSjjr_ZxWS7NdWD8k0aojERsMGjzqVTwwjHsNHl0ZG-FQsKrEEIU3JDpEyy-di_JGNKqCbHUx7geQ</IMGID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://x.com/i/status/1939700461428171042</URL>
+    <IMGID>SBpY2wlnS6Iha8wE5IQVW9PGNCt8xizVliCpM_negA6UufVry5t6J0HyI66tjBhTrViy-DJ3-Wx4hg</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>photoshoot</FORMAT>
-    <AUTHOR>SAYO_61</AUTHOR>
+    <FORMAT>null</FORMAT>
+    <AUTHOR>kiraruga</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 13 -->
