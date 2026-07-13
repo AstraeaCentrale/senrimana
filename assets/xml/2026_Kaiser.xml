@@ -141,7 +141,7 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 13 -->
-    <VISIBILITY>none</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY>
     <URL>https://www.pixiv.net/en/artworks/81242918</URL>
     <IMGID>VW0XrcgWG-CKQ2G6DMEMcrIE1wro0PMZyaujEqUqDEDsw9A-FSJHyOlx7y1cQ41rpHqRv0s0KpubGS0</IMGID>
     <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
