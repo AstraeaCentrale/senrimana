@@ -168,12 +168,12 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 16 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://www.pixiv.net/en/artworks/106450899</URL>
-    <IMGID>SEKdyn0GKfhcOoTn3bDB6U09PK1qsGTakBvwFqZbmfzD85PPA1D9oj91-8WBJdMeO1IYl6FvbNI</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/77964875</URL>
+    <IMGID>5WXdO5SWmZakXEhLvgf-Bw01zgmhNbaj98diHhahw_xcRwUDtG_0eB24t7LEdyBXOMXrA57Z1VoC</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>りむ＠冬コミ１日めQ34a</AUTHOR>
+    <AUTHOR>ももも</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 17 -->
