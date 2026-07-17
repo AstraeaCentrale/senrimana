@@ -177,12 +177,12 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 17 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://www.pixiv.net/en/artworks/113571487</URL>
-    <IMGID>rRO2UUjI4cR8aJ3Uuwq6nC7JzkN7w_ortLrldJSw7PIxhwbq9XcXi1yceafrWRu6a4wBiE1xzrzuLdM</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/104058775</URL>
+    <IMGID>d0Z7ThrNDd7t1TcUm8NzNgKT-uTk2orbXHdUV76bqY0cXhkn2Bvln0P6ov17YZRjuIFmLkD2s86WWA</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>Nobi</AUTHOR>
+    <AUTHOR>BAGKU</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 18 -->
