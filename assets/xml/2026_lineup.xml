@@ -127,16 +127,16 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 22 Jul 2026 -->
-    <VISIBILITY>inline-block</VISIBILITY>
-    <ID>6K7mjdsNDKc</ID>
-    <TITLE>cosplay showase -Senri Mana edition-🖤💜</TITLE>
-    <DESCRIPTION>the second Benefactor of the Senri has gone to great lengths in order to make her mark.. as the Senri herself in public??!🖤💜</DESCRIPTION>
-  </LIVE>
-  <LIVE> <!-- 23 Jul 2026 -->
     <VISIBILITY>none</VISIBILITY>
     <ID>bt1bpoHzI0I</ID>
     <TITLE>test title</TITLE>
     <DESCRIPTION>test description</DESCRIPTION>
+  </LIVE>
+  <LIVE> <!-- 23 Jul 2026 -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <ID>6K7mjdsNDKc</ID>
+    <TITLE>cosplay showase -Senri Mana edition-🖤💜</TITLE>
+    <DESCRIPTION>the second Benefactor of the Senri has gone to great lengths in order to make her mark.. as the Senri herself in public??!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 24 Jul 2026 -->
     <VISIBILITY>inline-block</VISIBILITY>
