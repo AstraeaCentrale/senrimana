@@ -186,13 +186,13 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 18 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://www.pixiv.net/en/artworks/121825239</URL>
-    <IMGID>6blOhhJpRB1Zkb2Y9i2MXEIPAPDvF6UCFlx-Y1mdnrTb26zOcoX9PyONtn9utwQhIk3wW8gB9ymaRg</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.reddit.com/r/Priconne/comments/1uzq9wd/senri_mana_horrorshop_pixel_editions</URL>
+    <IMGID>8JMRAYjvdfUJfslnZlMepMcQGyVbT169DFw1u1yKmD-q5HZKA1MzZacQ06jrWWNOTGc2CEA_0iDI0w</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>極上！乳首ストーカーパラダイス</AUTHOR>
-    <PLATFORMID>1</PLATFORMID>
+    <AUTHOR>千里真那Ch. / thebelovedmoon</AUTHOR>
+    <PLATFORMID>2</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 19 -->
     <VISIBILITY>none</VISIBILITY>
