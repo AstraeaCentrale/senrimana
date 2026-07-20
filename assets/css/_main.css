@@ -229,7 +229,10 @@ div[senriBorder] {
   background: var(--kaizaGr);
 }
 
-div[asTable] { overflow: auto; }
+div[asTable] {
+  overflow: auto;
+  * { margin: 0; }
+}
 div[asTable] > div {
   float: left;
   width: 50%;
@@ -266,7 +269,7 @@ div[socials] > svg { height: 1.25rem !important; } */
   user-select: none;
   font-size: inherit;
   * {
-    margin: 0 7.5px 7.5px 0;
+    margin: 0 7.5px 7.5px 0 !important;
     cursor: pointer;
   }
   *:hover { color: red; }
@@ -311,7 +314,7 @@ img[showtaSenri] {
   object-fit: contain;
 }
 
-div[lineupSheet] > *, div[lineupSheet] > div > *, div[eventDays] > *, div[eventDays] > div > * { margin: 0; }
+div[lineupSheet] *, div[lineupSheet] > div *, div[eventDays] *, div[eventDays] > div * { margin: 0; }
 
 p[dailyKaiserBtnList] > button[senri] {
   display: inline-block;
@@ -341,6 +344,8 @@ p[dailyKaiserBtnList] > button[senri] {
 }
 #displayCollection > div:hover { background-color: #b1afad; }
 #displayCollection > div > img {
+  width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
@@ -381,14 +386,32 @@ p[dailyKaiserBtnList] > button[senri] {
   #displayCollection { grid-template-columns: 100%; }
 }
 @media screen and (min-width: 480px) {
-  #displayCollection { grid-template-columns: 50% 50%; }
+  #displayCollection { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media screen and (min-width: 640px) {
-  #displayCollection { grid-template-columns: 33.33% 33.33% 33.33%; }
+  #displayCollection { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media screen and (min-width: 1280px) {
-  #displayCollection { grid-template-columns: 25% 25% 25% 25%; }
+  #displayCollection { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media screen and (min-width: 1920px) {
-  #displayCollection { grid-template-columns: 20% 20% 20% 20% 20%; }
+  #displayCollection { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 2560px) {
+  #displayCollection { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 3840px) {
+  #displayCollection { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 5120px) {
+  #displayCollection { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 5760px) {
+  #displayCollection { grid-template-columns: repeat(9, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 6400px) {
+  #displayCollection { grid-template-columns: repeat(10, minmax(0, 1fr)); }
+}
+@media screen and (min-width: 7680px) {
+  #displayCollection { grid-template-columns: repeat(11, minmax(0, 1fr)); }
 }
