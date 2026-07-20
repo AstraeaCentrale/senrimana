@@ -204,12 +204,12 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 20 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://www.pixiv.net/en/artworks/115877735</URL>
-    <IMGID>Pm47waJnRp3IfIlwmF6gDONMuiBQSNLfmbpB9H59u4_RiCCxGqt36ECOgCe95q9jPdqP6oNIjdot3w</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://x.com/i/status/1885595032415359434</URL>
+    <IMGID>Rqb_t9ALtJcewmjjtIZkPvodQKjuJT5HY9hPCBs7WgrCCEkwuA3dFwCkJgxkJz5irjl-vwcxdFn8ag</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>Rofu</AUTHOR>
+    <AUTHOR>mee_prcn</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 21 -->
