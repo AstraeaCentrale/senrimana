@@ -210,7 +210,7 @@
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
     <AUTHOR>mee_prcn</AUTHOR>
-    <PLATFORMID>1</PLATFORMID>
+    <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 21 -->
     <VISIBILITY>inline-block</VISIBILITY>
