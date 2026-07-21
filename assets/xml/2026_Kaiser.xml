@@ -213,13 +213,13 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 21 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1939846295222706565</URL>
-    <IMGID>8iZUXO_KWc3YdIGEdk541aT9Fp7_0IO73THi-G9MZ8FRHleyWeiYM2vQ9teKZJUEA9UKAe_cKtfU</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/135364317</URL>
+    <IMGID>C0Hoj_VexX991tdUhDOicM0oAn7XLGGHC6CTMSIzroCVeZxE73JIMObAQMWUFNQiMwISBH2CJOAnT9o</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>omoi8mabuta1_1</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>mee</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 22 -->
     <VISIBILITY>none</VISIBILITY>
