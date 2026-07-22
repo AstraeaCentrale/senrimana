@@ -12,6 +12,7 @@
   - 6: "yandere.re"
   - 7: "sourced externally"
   - 8: "VRoid Hub"
+  - 9: "Google Drive"
 
   FORMAT:
   - null:           "illust."
@@ -222,13 +223,13 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 22 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1940052835296846266</URL>
-    <IMGID>6WZ9hwGzQynmgpM0x2tOv9hoQIb5YwkKdiCYRfkq-U3DEeVIbSm_GHpBeLgvFJ1mFzRxWZLaL56gUw</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://bit.ly/AgaCosplay</URL>
+    <IMGID>oSs1NF3i8na_hELlQQTrIU-Tg14-E_ZYw7BwxC4EOEIesK7SWLbYS5BMtq1BG33XWSOkHHATxOpt</IMGID>
+    <STYLE>-o-object-position: 12.5% center; object-position: 12.5% center;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>nekoclown</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>千里真那Ch. (CV: thebelovedmoon)</AUTHOR>
+    <PLATFORMID>9</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 23 -->
     <VISIBILITY>none</VISIBILITY>

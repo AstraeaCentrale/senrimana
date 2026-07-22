@@ -9,7 +9,8 @@ let platformID = [
   "YouTube",
   "yandere.re",
   "sourced externally",
-  "VRoid Hub"
+  "VRoid Hub",
+  "Google Drive"
 ];
 
 function broadcastLineup(year) {
