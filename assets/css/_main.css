@@ -359,7 +359,7 @@ p[dailyKaiserBtnList] > button[senri] {
 #displayCollection > div > div > .author[picrew]::before { content: "a picrew edit by "; }
 #displayCollection > div > div > .author[photoshoot]::before { content: "a photo by "; }
 #displayCollection > div > div > .author[ytVod]::before { content: "a video by "; }
-#displayCollection > div > div > .author[cosplay]::before { content: "cosplay by "; }
+#displayCollection > div > div > .author[cosplay]::before { content: "a cosplay by "; }
 
 /* responsive display */
 @media screen and (max-width: 1000px) {
