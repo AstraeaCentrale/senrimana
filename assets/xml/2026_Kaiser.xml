@@ -12,7 +12,6 @@
   - 6: "yandere.re"
   - 7: "sourced externally"
   - 8: "VRoid Hub"
-  - 9: "Google Drive"
 
   FORMAT:
   - null:           "illust."
@@ -229,16 +228,16 @@
     <STYLE>-o-object-position: 12.5% center; object-position: 12.5% center;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>cosplay</FORMAT>
     <AUTHOR>千里真那Ch. (CV: thebelovedmoon)</AUTHOR>
-    <PLATFORMID>9</PLATFORMID>
+    <PLATFORMID>7</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 23 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1935626140380750091</URL>
-    <IMGID>u_rIor35Ec_SXl5m-QEW2CnjmQyJmHU2VvYu19SzJCq_AldZ1683dmUngO2y-HDq4ilM18Iwf6OwAA</IMGID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/146736061</URL>
+    <IMGID>5-uCqnvNjLQ1cJRzS3t6h16iQTvJvr-XotiR1aoglByENs0jp_7BHeC0G-LhcBV35rf3rCEL3HtD</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>mee_prcn</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>十一月</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 24 -->
     <VISIBILITY>none</VISIBILITY>

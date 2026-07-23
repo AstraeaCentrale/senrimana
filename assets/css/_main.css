@@ -194,7 +194,7 @@ div[dailyKaiser] > #dailyKaiser > div > div > .author[screencap]::before { conte
 div[dailyKaiser] > #dailyKaiser > div > div > .author[picrew]::before { content: "a picrew edit by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[photoshoot]::before { content: "a photo by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[ytVod]::before { content: "a video by "; }
-div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content: "cosplay by "; }
+div[dailyKaiser] > #dailyKaiser > div > div > .author[cosplay]::before { content: "a cosplay by "; }
 div[dailyKaiser] > #dailyKaiser > div > div > .author[vroid]::before { content: "vroid by "; }
 
 div[senri] {
@@ -360,6 +360,7 @@ p[dailyKaiserBtnList] > button[senri] {
 #displayCollection > div > div > .author[photoshoot]::before { content: "a photo by "; }
 #displayCollection > div > div > .author[ytVod]::before { content: "a video by "; }
 #displayCollection > div > div > .author[cosplay]::before { content: "a cosplay by "; }
+#displayCollection > div > div > .author[vroid]::before { content: "vroid by "; }
 
 /* responsive display */
 @media screen and (max-width: 1000px) {

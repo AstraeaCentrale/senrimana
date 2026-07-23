@@ -10,7 +10,6 @@ let platformID = [
   "yandere.re",
   "sourced externally",
   "VRoid Hub",
-  "Google Drive"
 ];
 
 function broadcastLineup(year) {
@@ -70,7 +69,7 @@ function dailyKaiser(year) {
           <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
           <div>
             <span style="font-size: .875rem; margin-bottom: 0.25rem;">DAY ${k + 1}</span>
-            <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
+            <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue == "cosplay" ? "" : ` (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})`}</span>
           </div>
         </div>
       `;
@@ -120,7 +119,7 @@ function showCollection(year) {
             <img src="${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
             <div>
               <span style="font-size: .875rem;">DAY ${k + 1}</span>
-              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
+              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue == "cosplay" ? "" : ` (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})`}</span>
             </div>
           </div>
         `;
@@ -144,7 +143,7 @@ function showCollection(year) {
             <img src="https://pbs.twimg.com/media/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}?format=jpg&name=4096x4096" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
             <div>
               <span style="font-size: .875rem;">DAY ${k + 1}</span>
-              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
+              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue == "cosplay" ? "" : ` (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})`}</span>
             </div>
           </div>
         `;
@@ -168,7 +167,7 @@ function showCollection(year) {
             <img src="https://yt3.ggpht.com/${m[k].getElementsByTagName("IMGID")[0].childNodes[0].nodeValue}" alt="" width="500px" style="${m[k].getElementsByTagName("STYLE")[0].childNodes[0].nodeValue}">
             <div>
               <span style="font-size: .875rem;">DAY ${k + 1}</span>
-              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue} (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})</span>
+              <span class="author" ${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue} type="eventText">${m[k].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue}${m[k].getElementsByTagName("FORMAT")[0].childNodes[0].nodeValue == "cosplay" ? "" : ` (${platformID[m[k].getElementsByTagName("PLATFORMID")[0].childNodes[0].nodeValue]})`}</span>
             </div>
           </div>
         `;
