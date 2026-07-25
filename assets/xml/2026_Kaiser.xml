@@ -240,21 +240,21 @@
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 24 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1947940601191600487</URL>
-    <IMGID>NOwAgKrsm5U7YFYM1cJz85kE4LEg4h4wC0HQgUs_fNgjATuVYfqc4eMVXHPmd2EqUU4rrrM7LX-u</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>null</FORMAT>
-    <AUTHOR>urb0</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
-  </DAILY>
-  <DAILY> <!-- DAY 25 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1942348502874697990</URL>
-    <IMGID>Vd4SFKDzGSHzsDFucSqDb-fs2E_i-NO37Iy2foES4ZvnLzvkC_3EadQRkGqx7tiB6_F2J6Sg3BPwzQ</IMGID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/125532946</URL>
+    <IMGID>mwIdXEEKL-EpSs_oMgFRbQYjuNV-oGo69j6MsKTBl2EtemeVOx2CjYup_PY9j8j2TRCx21-Yb-6QeQ</IMGID>
     <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>nekoclown</AUTHOR>
+    <AUTHOR>mee</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
+  </DAILY>
+  <DAILY> <!-- DAY 25 -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://x.com/i/status/2080226365282939131</URL>
+    <IMGID>AOZt6iBlAP4PxWxbLrjESyH_2stGeoT3DVn6yPIHivQFK8vbo02x2-GUhQVZlgVEFI7IVsabQx2Ydw</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>null</FORMAT>
+    <AUTHOR>urb03</AUTHOR>
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 26 -->
