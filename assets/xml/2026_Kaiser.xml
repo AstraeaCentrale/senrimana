@@ -285,30 +285,30 @@
     <PLATFORMID>0</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 29 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://www.pixiv.net/en/artworks/78512106</URL>
-    <IMGID>8_ovyxFVUSVXzbTAdJLLDAaUaPksYwZunZ2rosfAe0DpSV9I0O9MzNzvg7QCUSdl-dxYHESHs1j6WrE</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/103861209</URL>
+    <IMGID>qafBuRtS6C1j9o2_lgVRanEqwIGrcahOqwvHPreXKCoeJyku3yuWaJQbup6ImnXl7LKRgEm_D8e9</IMGID>
+    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>대해원</AUTHOR>
+    <AUTHOR>D</AUTHOR>
     <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 30 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://x.com/i/status/1950544654551933158</URL>
-    <IMGID>KLaMbhw-i4MG96oXvgqMTnXsf3mlU5mlOyqNYjlFENgxO4uK3K1CGdQzW1s-xXFZ5mzdi_7Nlgunig</IMGID>
-    <STYLE>-o-object-position: center top; object-position: center top;</STYLE> <!-- use "null" for no css styling -->
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://www.pixiv.net/en/artworks/97586243</URL>
+    <IMGID>Na6udmBytg8VU1PQ0b9RZgg-_kE8iVI6RaOxoJLEuoUNO-6ioxTMMcIO0HAfqlyxWyY1ngrn6VLtwQ</IMGID>
+    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
     <FORMAT>null</FORMAT>
-    <AUTHOR>mee_prcn</AUTHOR>
-    <PLATFORMID>0</PLATFORMID>
+    <AUTHOR>アニメと現実をつなげる鏡</AUTHOR>
+    <PLATFORMID>1</PLATFORMID>
   </DAILY>
   <DAILY> <!-- DAY 31 -->
-    <VISIBILITY>none</VISIBILITY>
-    <URL>https://hub.vroid.com/en/characters/919333168471631927/models/6970678932260272493</URL>
-    <IMGID>W_8J9EUvkdzKAApfjRjDGmX_brdeP4JWk_D5_7PZHtrwWB2BSIjgPtPmkkYmWrui4HNFrJh14Cmslw</IMGID>
-    <STYLE>null</STYLE> <!-- use "null" for no css styling -->
-    <FORMAT>vroid</FORMAT>
-    <AUTHOR>千里真那Ch. (CV: thebelovedmoon)</AUTHOR>
-    <PLATFORMID>8</PLATFORMID>
+    <VISIBILITY>inline-block</VISIBILITY>
+    <URL>https://x.com/i/status/1888579549899964418</URL>
+    <IMGID>z6A2ZWaHYPfegD42K42kUEK5DGuKd3h1KHUYpv0YfvT0ltDi3E984_VVS13Jj9dRU68qnnuYOZ8N</IMGID>
+    <STYLE>-o-object-position: center 20%; object-position: center 20%;</STYLE> <!-- use "null" for no css styling -->
+    <FORMAT>cosplay</FORMAT>
+    <AUTHOR>蒼井翔太</AUTHOR>
+    <PLATFORMID>7</PLATFORMID>
   </DAILY>
 </KAISER>
