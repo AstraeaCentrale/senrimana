@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <LINEUP>
   <LIVE> <!-- 1 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>3mZvqI2zJk8</ID>
     <TITLE>千里真那2026: Return of the Senri🖤💜</TITLE>
     <DESCRIPTION>our well-loved Senri is back for another annual appearance!!🖤💜</DESCRIPTION>
@@ -19,31 +19,31 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 4 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>8L9TkD2zAds</ID>
     <TITLE>プリンセスコネクト！Re:Dive🖤💜</TITLE>
     <DESCRIPTION>after a long while, let's continue exploring what's ahead of us in Landosol!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 5 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>16DQ8lizMmk</ID>
     <TITLE>Re:Dive + TLON🖤💜</TITLE>
     <DESCRIPTION>let's get back to Astraea, then to Cabala at the same time!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 6 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>rWvdBvuTu8w</ID>
     <TITLE>Crazy Ones: an ASMR impression🖤💜</TITLE>
     <DESCRIPTION>using our Kaiza impressions for something different: accompanying this playthrough??🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 7 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>HKe7hYstZVE</ID>
     <TITLE>プリンセスコネクト！Re:Dive🖤💜</TITLE>
     <DESCRIPTION>after a long while, let's continue exploring what's ahead of us in Landosol!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 8 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>iTGa5H7Gioo</ID>
     <TITLE>web development🖤💜</TITLE>
     <DESCRIPTION>let's continue updating our website -- alongside everything else!!🖤💜</DESCRIPTION>
@@ -61,19 +61,19 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 11 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>jErYKp5ZpCg</ID>
     <TITLE>プリンセスコネクト！Re:Dive🖤💜</TITLE>
     <DESCRIPTION>after a long while, let's continue exploring what's ahead of us in Landosol!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 12 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>XmpiKKhKVNs</ID>
     <TITLE>千里真那【Re:Birth】🖤💜</TITLE>
     <DESCRIPTION>let's continue writing the lore even when the event is ongoing!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 13 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>oHKy2BddXN0</ID>
     <TITLE>千里真那【Re:Birth】🖤💜</TITLE>
     <DESCRIPTION>let's continue writing the lore even when the event is ongoing!!🖤💜</DESCRIPTION>
@@ -85,19 +85,19 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 15 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>cbXGQCix6jc</ID>
     <TITLE>千里真那【Re:Birth】🖤💜</TITLE>
     <DESCRIPTION>let's continue writing the lore even when the event is ongoing!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 16 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>wM7aY2PBBO4</ID>
     <TITLE>Kaiza does art!!🖤💜</TITLE>
     <DESCRIPTION>what better way to make a mark on the event than provide an illust for one of the legendary characters in all of Re:Dive??!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 17 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>N0ZAZ6uQUUI</ID>
     <TITLE>Kaiza does art!!🖤💜</TITLE>
     <DESCRIPTION>what better way to make a mark on the event than provide an illust for one of the legendary characters in all of Re:Dive??!🖤💜</DESCRIPTION>
@@ -109,13 +109,13 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 19 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>LZoHm1dYiDQ</ID>
     <TITLE>ASMR with Kaiza🖤💜</TITLE>
     <DESCRIPTION>get ready for the return of the sultruous voice that characterizes Kaiza in her true beauty!!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 20 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>obH4ensL0N0</ID>
     <TITLE>ASMR with Kaiza🖤💜</TITLE>
     <DESCRIPTION>get ready for the return of the sultruous voice that characterizes Kaiza in her true beauty!!🖤💜</DESCRIPTION>
@@ -133,13 +133,13 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 23 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>6K7mjdsNDKc</ID>
     <TITLE>cosplay showcase -Senri Mana edition-🖤💜</TITLE>
     <DESCRIPTION>the second Benefactor of the Senri has gone to great lengths in order to make her mark.. as the Senri herself in public??!🖤💜</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 24 Jul 2026 -->
-    <VISIBILITY>none</VISIBILITY> <!-- completed -->
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>_MJxXRZYQzg</ID>
     <TITLE>プリンセスコネクト！Re:Dive🖤💜</TITLE>
     <DESCRIPTION>after a long while, let's continue exploring what's ahead of us in Landosol!!🖤💜</DESCRIPTION>
@@ -181,7 +181,7 @@
     <DESCRIPTION>test description</DESCRIPTION>
   </LIVE>
   <LIVE> <!-- 31 Jul 2026 -->
-    <VISIBILITY>inline-block</VISIBILITY>
+    <VISIBILITY>inline-block</VISIBILITY> <!-- completed -->
     <ID>31CVU7-rP9A</ID>
     <TITLE>千里真那2026: the Conclusion🖤💜</TITLE>
     <DESCRIPTION>as we formally conclude the event; let's take a look back at what we have done throughout the month, and speculate on what's in store for next year!!🖤💜</DESCRIPTION>
