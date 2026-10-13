@@ -1,5 +1,18 @@
 // workaround: https://www.w3schools.com/xml/ajax_xmlfile.asp 
 
+async function fetchXml(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Request for ${url} failed: ${response.status} ${response.statusText}`);
+  }
+  const xmlDoc = new DOMParser().parseFromString(await response.text(), "application/xml");
+  const parseError = xmlDoc.querySelector("parsererror");
+  if (parseError) {
+    throw new Error(`Invalid XML from ${url}: ${parseError.textContent}`);
+  }
+  return xmlDoc;
+}
+
 let platformID = [
   "X",
   "pixiv",
@@ -13,9 +26,8 @@ let platformID = [
 ];
 
 function broadcastLineup(year) {
-  function vod(xml) {
+  function vod(xmlDoc) {
     let out = "",
-      xmlDoc = xml.responseXML,
       b = xmlDoc.getElementsByTagName("LIVE"),
       dateeeee = new Date(new Date().getTime() + diffOffs(9));
     for (let k = 0; k < b.length; k++) {
@@ -34,12 +46,8 @@ function broadcastLineup(year) {
     document.getElementById("vodList").innerHTML = out;
     // isOngoing();
   }
-  let ajxLoad = new XMLHttpRequest();
-  ajxLoad.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) { vod(this); }
-  };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_lineup.xml`, true);
-  ajxLoad.send();
+  const url = `/senrimana/assets/xml/${year}_lineup.xml`;
+  fetchXml(url).then(vod).catch((error) => console.error(`Unable to load ${url}`, error));
 }
 
 function isOngoing() {
@@ -59,9 +67,8 @@ function isOngoing() {
 }
 
 function dailyKaiser(year) {
-  function gallery(xml) {
+  function gallery(xmlDoc) {
     let out = "",
-      xmlDoc = xml.responseXML,
       m = xmlDoc.getElementsByTagName("DAILY");
     for (let k = 0; k < m.length; k++) {
       out += `
@@ -77,12 +84,8 @@ function dailyKaiser(year) {
     document.getElementById("dailyKaiser").innerHTML = out;
     // inactiveUnlessPassed();
   }
-  let ajxLoad = new XMLHttpRequest();
-  ajxLoad.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) { gallery(this); }
-  };
-  ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
-  ajxLoad.send();
+  const url = `/senrimana/assets/xml/${year}_Kaiser.xml`;
+  fetchXml(url).then(gallery).catch((error) => console.error(`Unable to load ${url}`, error));
 }
 
 function inactiveUnlessPassed() {
@@ -102,16 +105,14 @@ function inactiveUnlessPassed() {
 }
 
 function showCollection(year) {
-  let ajxLoad;
   document.getElementById("dKContainer")?.setAttribute("style", "display: block;");
   document.getElementById("dKTitle")?.setAttribute("style", "display: flex;");
   document.getElementById("dKTitle").innerHTML = `
     <span>Daily Kaiser ${year}🖤💜</span>
   `;
   if (year == "2022") {
-    function gallery(xml) {
+    function gallery(xmlDoc) {
       let out = "",
-        xmlDoc = xml.responseXML,
         m = xmlDoc.getElementsByTagName("DAILY");
       for (let k = 0; k < m.length; k++) {
         out += `
@@ -126,16 +127,11 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    ajxLoad = new XMLHttpRequest();
-    ajxLoad.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) { gallery(this); }
-    };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2022_Kaiser.xml`, true);
-    ajxLoad.send();
+    const url = "/senrimana/assets/xml/2022_Kaiser.xml";
+    fetchXml(url).then(gallery).catch((error) => console.error(`Unable to load ${url}`, error));
   } else if (year == "2023") {
-    function gallery(xml) {
+    function gallery(xmlDoc) {
       let out = "",
-        xmlDoc = xml.responseXML,
         m = xmlDoc.getElementsByTagName("DAILY");
       for (let k = 0; k < m.length; k++) {
         out += `
@@ -150,16 +146,11 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    ajxLoad = new XMLHttpRequest();
-    ajxLoad.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) { gallery(this); }
-    };
-    ajxLoad.open("GET", `/senrimana/assets/xml/2023_Kaiser.xml`, true);
-    ajxLoad.send();
+    const url = "/senrimana/assets/xml/2023_Kaiser.xml";
+    fetchXml(url).then(gallery).catch((error) => console.error(`Unable to load ${url}`, error));
   } else {
-    function gallery(xml) {
+    function gallery(xmlDoc) {
       let out = "",
-        xmlDoc = xml.responseXML,
         m = xmlDoc.getElementsByTagName("DAILY");
       for (let k = 0; k < m.length; k++) {
         out += `
@@ -174,11 +165,7 @@ function showCollection(year) {
       }
       document.getElementById("displayCollection").innerHTML = out;
     }
-    ajxLoad = new XMLHttpRequest();
-    ajxLoad.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) { gallery(this); }
-    };
-    ajxLoad.open("GET", `/senrimana/assets/xml/${year}_Kaiser.xml`, true);
-    ajxLoad.send();
+    const url = `/senrimana/assets/xml/${year}_Kaiser.xml`;
+    fetchXml(url).then(gallery).catch((error) => console.error(`Unable to load ${url}`, error));
   }
 }
